@@ -6,13 +6,13 @@ body {
 
 header {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;    
     background-color: #edd4d3;
     
 }
 h1 {
     text-align: center;
-    padding: 75px;
+    padding: 20px;
     font-family: 'Handlee', cursive;
 }
 
@@ -22,13 +22,14 @@ header, nav, main, footer {
     
 }
 #familyPhoto {
-    justify-content: center;
-    padding: 20px;
+    justify-content: center;    
+    padding: 10px;
+    border-radius: 30px;  
 }
 
 h2 {
     background-color: #EBEDE9;
-    color: #7d413b;
+    color: #6f3a34;
     text-align: center;
     font-family: 'Handlee', cursive;
     padding: 1rem;

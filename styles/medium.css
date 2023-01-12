@@ -1,0 +1,14 @@
+@media only screen and (min-width: 32.5em) { 
+    header {
+    display: grid;
+    grid-template-columns: auto auto;       
+    }
+    #familyPhoto { 
+        box-shadow: .3em .3em 1em gray;       
+        padding: 20px;        
+        float: right;        
+    }   
+    h1 {
+            padding: 75px;
+    }    
+ }   
