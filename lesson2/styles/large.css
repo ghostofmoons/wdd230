@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1169px){
+/* Main appearence for the whole site.  
+        Grid set up columns. */
+        main {
+            grid-template-columns: auto auto auto;
+            
+        }
+
+
+}

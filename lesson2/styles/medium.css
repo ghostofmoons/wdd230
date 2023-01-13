@@ -1,0 +1,17 @@
+@media only screen and (min-width: 780px){
+
+    /* Main appearence for the whole site.  
+        Grid set up columns. */
+        main {
+            grid-template-columns: auto auto;
+            
+        }
+
+    /*Grid containers appearance. 
+        Div  margins*/
+
+        div{
+            margin: 10px;
+               
+        }
+}

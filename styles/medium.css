@@ -5,7 +5,7 @@
     }
     #familyPhoto { 
         box-shadow: .3em .3em 1em gray;       
-        padding: 20px;        
+        margin-top: 10px;       
         float: right;        
     }   
     h1 {
