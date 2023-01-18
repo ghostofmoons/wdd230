@@ -1,9 +1,9 @@
-@media only screen and (min-width: 780px){
+@media only screen and (min-width: 400px){
 
     /* Main appearence for the whole site.  
         Grid set up columns. */
         main {
-            grid-template-columns: auto auto;
+            grid-template-columns: 1fr 1fr;
             
         }
 
@@ -14,4 +14,10 @@
             margin: 10px;
                
         }
+    /*boarders for h3*/
+        h3 {
+            
+            border-radius: 20px 20px 0px 0px;
+               
+        }    
 }
