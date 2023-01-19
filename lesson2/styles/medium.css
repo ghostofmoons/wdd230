@@ -3,7 +3,7 @@
     /* Main appearence for the whole site.  
         Grid set up columns. */
         main {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: auto auto;
             
         }
 
