@@ -1,0 +1,21 @@
+@media only screen and (min-width: 400px){
+   /*Header appearence. 
+        list appearance*/ 
+    ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    /*Main area appeance
+        Display grid center
+        */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    #designMain {
+            grid-template-columns: 1fr 1fr;
+        }
+
+}
