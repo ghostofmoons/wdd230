@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 768px){
    /*Header appearence. 
         list appearance*/ 
     ul{
@@ -18,4 +18,8 @@
             grid-template-columns: 1fr 1fr;
         }
 
+    footer {
+        margin-bottom: none;
+    }
 }
+

@@ -12,7 +12,7 @@
         }
 
         header, nav, main, footer {
-            max-width: 900px;
+            max-width: 1110px;
             margin: 1.25rem auto;
         }
 
@@ -71,8 +71,9 @@
 
         main {
             display: grid;
-            grid-template-rows: 1fr 1fr 1fr;            
+            grid-template-rows: 1fr 1fr;            
             justify-content: center;
+            
         }
 
         
@@ -81,6 +82,7 @@
             padding-left: 10px;
             padding-right: 10px;  
             margin: 20px; 
+           
         }
         
         h2 {                    
@@ -123,3 +125,4 @@
             padding: .20rem;
             font-family: 'Quicksand', sans-serif;
         }
+       
