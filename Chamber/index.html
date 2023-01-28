@@ -9,11 +9,11 @@
     <title>Riverton Chamber of Commerce</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/base.css">
-    <link rel="stylesheet" href="style/medium.css">
-    <link rel="stylesheet" href="style/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Playfair+Display:ital@0;1&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
 <!--Header containing
@@ -23,9 +23,9 @@
     Site Navigation. home, events, committes, about, memeber
     todays Date -->        
     <header>
-        <div><img>
+        <div><img id="logo"src="images/RivertonLogo.png" alt="Riverton Chamber of Commerce Logo" width="150" height="150">
         </div>
-        <div>
+        <div id="heading">
             <h1>
                 Riverton
             </h1>
@@ -34,29 +34,31 @@
             </h2>
         </div>
         <div>
-            <li><a href="https://www.youtube.com/rivertonutahgov"><img src="images/YouTube_social_white_square_(2017).svg.png" alt="YouTube"></a></li>
-            <li><a href="https://www.linkedin.com/company/rivertonutahgov"><img src="images/64px-LinkedIn_logo_initials.png" alt="Link in"></a></li>
+            <ul class="social">
+                <li><a href="https://www.youtube.com/rivertonutahgov"><img src="images/YouTube_social_white_square_(2017).svg.png" alt="YouTube" width="50" height="50"></a></li>
+                <li><a href="https://www.linkedin.com/company/rivertonutahgov"><img src="images/64px-LinkedIn_logo_initials.png" alt="Link in" width="50" height="50"></a></li>
+            </ul>
         </div>
         <Nav>
-            <li><a href="index.html">Chamber</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="membership.html">Members</a></li>
-            <li><a href="events.html">Events</a></li>            
-            
+        <button id="hamburger"><span>&#9776;</span><span>x</span></button>
+            <ul id="headerNav" >
+                <li><a href="index.html">Chamber</a></li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="membership.html">Members</a></li>
+                <li><a href="events.html">Events</a></li>            
+            </ul>
         </Nav>
-        <div id="today">
-            today
-        </div>
+        <div class="today"></div>
         
     </header>
     <main>
-        <div>Hero with Site Name and call to action</div>
-        <div>Event</div>
-        <div>Weather</div>
-        <div>News Release</div>
-        <div>
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
+        <div><p>Hero with Site Name and call to action</p></div>
+        <div><p>Event</p></div>
+        <div><p>Weather</p></div>
+        <div><p>News Release</p></div>
+        <div class="spotlight">
+            <p>Spotlight 1</p>
+            <p>Spotlight 2</p>
         </div>
     </main>
 
@@ -65,25 +67,30 @@
     Date and time for page update
     Name, address, contact info, map location-->
     <footer>
-        <div>
+        <div class="contact">
+            <img src="images/RivertonLogo.png" alt="Riverton Chamber of Commerce Logo" width="150" height="150">
             <h2>Riverton Chamber of Commerce</h2>
             <address>
                 12830 S Readwood Road<br>
                 Riverton, Utah 84065<br>
                 USA
             </address>
-            <li><a href="https://goo.gl/maps/oex9v1xJsbAki3967">Map It</a></li>            
+            
+            <a href="https://goo.gl/maps/oex9v1xJsbAki3967">Map It</a></li>            
             <p>801-208-3139</p>
-            <li><a href="businesslicensing@rivertonutah.gov">Email Us</a></li>
+            <a href="businesslicensing@rivertonutah.gov">Email Us</a></li>
+            
 
         </div>
-        <p id="coppywrite">
-            &copy; <span id="currentyear"></span>Crystal Martin | WDD 
-            230 - Winter 2023
-        </p>
-        <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
-        </span>
-        </p>
+        <div class="copywriteArea">
+            <p id="copywrite">
+                &copy; <span id="currentyear"></span>Crystal Martin | WDD 
+                230 - Winter 2023
+            </p>
+            <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
+            </span>
+            </p>
+        </div>
     </footer>
     <script src="scripts/app.js"></script>
 </body>

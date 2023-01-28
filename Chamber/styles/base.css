@@ -1,1 +1,166 @@
-/*Small screen size media*/
+/*Small screen appearence*/
+
+/* Main appearence for the whole site.  
+    Grid set up rows. 
+    Line height, color width and margins*/
+    body {      
+        line-height: 1.3;
+        background-color: #D4D0C3;
+    }
+
+    header, nav, main, footer {
+        max-width: 1110px;
+        margin: 1.25rem auto;
+    }
+
+/*Header apperance
+    background color. Fonts and color for h1, h2, date, nav items
+    grid set up*/
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2 fr 1fr 1fr 1fr;
+        background-color: #09314F;   
+        align-content: center; 
+        
+    }
+
+    h1, h2, .today, li, a {
+        color: #E4DBDB;
+    }
+
+    h1, h2 {
+        font-family: 'Playfair Display', serif; 
+       
+    }
+
+    .today, a {
+        font-family: 'Quicksand', sans-serif; 
+    }
+    nav ul, .social {
+        list-style-type:  none;
+        padding: 0;
+    }
+    .today {
+       grid-column: 1/6; 
+       margin-top: none;
+    }
+    ul.social {
+        display: flex;
+        
+    }
+    ul.social li {
+        flex: 1 1 auto;
+        display: block;
+        padding: 5px;
+    }
+    #logo{
+        grid-column: 1/2;
+        
+    }
+    #heading {
+        grid-column: 2/4;
+        padding-left: none;
+    }
+    #logo{
+        padding-bottom: 15px;       
+        padding-right: none;
+        padding-left: 15px;
+    }
+    
+/*Set up header navigation area*/
+    nav button{
+        margin: .2rem;
+        background: transparent;
+        color: rgba( 228, 219, 219, .65);
+        border-color:rgba( 228, 219, 219, .65);
+        font-size: 1.5rem;
+        
+    }
+    nav {
+        background-color: #09314F;
+        grid-column: 5/6;
+    }
+    nav ul {
+        margin: 0;
+        display: none;
+    }
+    nav ul.open{
+        display: block;
+        padding-right: 10px;
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem; 
+        text-decoration: none;
+        box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
+    }
+    nav ul li a:hover{
+        background-color: rgba(0, 0, 0, .3);
+    }
+    #hamburger span:nth-child(1) {display: block;}
+    #hamburger span:nth-child(2) {display: none;}
+    #hamburger.open span:nth-child(1) {display: none;}
+    #hamburger.open span:nth-child(2) {display: block;}
+
+
+
+/*date set up in header*/
+.today {
+	margin: 0.5rem;	
+	padding: 0.75rem;
+	background-color: rgba( 228, 219, 219, .20);
+    text-align: center;
+}
+
+/*Main area grid*/
+main {
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    background-color: #E4DBDB;
+    }
+    main div{
+        border: 1px solid rgba(0, 0, 0, .3);
+        padding: 10px;
+        
+    }
+ .spotlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    
+ }   
+ .spotlight p {
+    padding: 10px;
+    display: block;
+    box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
+}
+
+
+
+/*Footer design background, font color and style, */
+
+footer {
+    background-color: #09314F;
+    text-align: center;    
+}
+
+
+.copywriteArea{
+    display:grid;
+    grid-template-columns: auto auto;
+    border-top: 2px solid #D4D0C3
+}
+
+
+footer div address, footer div p, footer p, footer div ul li {
+    font-family: 'Quicksand', sans-serif;
+    color:#E4DBDB ;
+}
+
+footer div a {
+    display: block;
+    padding: .8rem; 
+}
+footer div a:hover {
+    color: #FB7923;
+}
