@@ -3,11 +3,17 @@
    nav button {
     display: none;
    }
-   nav ul#headerNav {
+   nav ul {
     display: flex;
     justify-content: center;
    } 
 
+
+   nav {
+      padding: 30 px;
+      padding-right: 30px;
+     
+   }
    
 
 }

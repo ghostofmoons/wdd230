@@ -18,7 +18,7 @@
     grid set up*/
     header {
         display: grid;
-        grid-template-columns: 1fr 2 fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
         background-color: #09314F;   
         align-content: center; 
         
@@ -42,8 +42,14 @@
     }
     .today {
        grid-column: 1/6; 
-       margin-top: none;
+       margin-top: none;       
     }
+
+    .social {
+        grid-column: 3/4;
+        padding: 10px;
+        align-items: center;
+     }
     ul.social {
         display: flex;
         
@@ -58,7 +64,7 @@
         
     }
     #heading {
-        grid-column: 2/4;
+        grid-column: 2/3;
         padding-left: none;
     }
     #logo{
