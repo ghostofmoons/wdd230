@@ -42,7 +42,7 @@
     }
     .today {
        grid-column: 1/6; 
-       margin-top: none;       
+              
     }
 
     .social {
@@ -65,11 +65,11 @@
     }
     #heading {
         grid-column: 2/3;
-        padding-left: none;
+        
     }
     #logo{
         padding-bottom: 15px;       
-        padding-right: none;
+       
         padding-left: 15px;
     }
     
