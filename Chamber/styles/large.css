@@ -14,7 +14,15 @@
       padding-right: 30px;     
       
    }
-   
+   .social {
+      grid-column: 5/6;
+      grid-row: 1/2;
+      
+   }
+   .headNav {
+      grid-column: 3/5;
+      grid-row: 1/2;
+   }
 
    .main {
       display: grid;
@@ -49,7 +57,7 @@
   p.spot3 {
    display: block;
   }
-
+  
 
 
 }

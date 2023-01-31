@@ -70,11 +70,7 @@
         
         
     }
-    #logo{
-        padding-bottom: 15px;       
-       
-        padding-left: 15px;
-    }
+    
     .headNav{
         grid-column: 4/6;
     }
@@ -146,6 +142,9 @@ main {
     display: block;
     box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
 }
+p.spot3 {
+    display: none;
+}
 
 
 
@@ -175,4 +174,8 @@ footer div a {
 }
 footer div a:hover {
     color: #FB7923;
+}
+
+.bottomlogo,  .direction {
+    line-height: .5;
 }
