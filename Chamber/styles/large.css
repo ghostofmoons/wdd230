@@ -57,7 +57,9 @@
   p.spot3 {
    display: block;
   }
-  
+  .join {
+   display: block;
+  }
 
 
 }
