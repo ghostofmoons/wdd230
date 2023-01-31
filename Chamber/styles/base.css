@@ -16,9 +16,9 @@
 /*Header apperance
     background color. Fonts and color for h1, h2, date, nav items
     grid set up*/
-    header {
+    .head {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        grid-template-columns: 95px repeat(4, auto);
         background-color: #09314F;   
         align-content: center; 
         
@@ -30,7 +30,7 @@
 
     h1, h2 {
         font-family: 'Playfair Display', serif; 
-       
+        line-height: .5;
     }
 
     .today, a {
@@ -47,8 +47,8 @@
 
     .social {
         grid-column: 3/4;
-        padding: 10px;
-        align-items: center;
+        padding: px;
+       
      }
     ul.social {
         display: flex;
@@ -59,18 +59,24 @@
         display: block;
         padding: 5px;
     }
-    #logo{
+    .logo{
         grid-column: 1/2;
+        height: 100px;
+        width: 100px;
         
     }
     #heading {
         grid-column: 2/3;
+        
         
     }
     #logo{
         padding-bottom: 15px;       
        
         padding-left: 15px;
+    }
+    .headNav{
+        grid-column: 4/6;
     }
     
 /*Set up header navigation area*/
