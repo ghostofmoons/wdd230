@@ -11,15 +11,13 @@
         */
     main {
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: auto auto;
     }
 
-    #designMain {
-            grid-template-columns: 1fr 1fr;
-        }
+    
 
-    footer {
+    /*footer {
         margin-bottom: none;
-    }
+    }*/
 }
 
