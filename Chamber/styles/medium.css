@@ -4,6 +4,8 @@
         display: grid;
         grid-template-columns: repeat(3, auto);
         gap: 10px;
+        grid-template-rows: 200px 200px 200px 200px;
+        
     }
 
     .hero, .news, .spotlight, .join {
