@@ -1,5 +1,5 @@
-/*Medium sized media starting at 768px*/
 @media only screen and (min-width: 768px){
+    /*MAIN area Change*/
     .main {
         display: grid;
         grid-template-columns: repeat(3, auto);
@@ -26,24 +26,29 @@
         grid-column: 1/3;
     }
     
-    .contact {
-        display: grid;
-        grid-template-columns: 150px auto auto;
-       }
-    .bottomlogo {
-        grid-column: 1/2;
-    }   
-    .nameaddress {
-        grid-column: 2/3;
-        text-align: left;
-        
-    }
-    .direction {
-        grid-column: 3/4;
-        line-height: .5;
-    }
 
-
-
+    /*FOOTER Changes*/
+        .contact {
+            display: grid;
+            grid-template-columns: 110px auto auto;
+            
+        }
+        .bottomlogo {
+            grid-column: 1/2;
+        }   
+        .nameaddress {
+            grid-column: 2/3;
+            text-align: left;
+            padding: 20px;
+            
+        }
+        .direction {
+            grid-column: 3/4;
+            line-height: .5;
+            padding: 20px;
+        }   
+        .bottomlogo{
+            align-self: center;
+        }
 
 }
