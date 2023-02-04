@@ -21,3 +21,10 @@ function toggleNavMenu() {
 }
 const computer = document.getElementById("hamburger");
 computer.onclick = toggleNavMenu;
+
+//Meet and Greet take notice
+
+const weekday = todayDate.getDay();
+if (weekday != 2) {
+    document.getElementById("meetandgreet").classList.toggle("off");
+}n 

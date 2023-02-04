@@ -10,9 +10,22 @@
             background-color: #09314F;
             display: grid;
             grid-template-columns: 110px repeat(3, auto);            
-            color: #E4DBDB;
+            color: #E4DBDB;            
+        }
+
+    /*Meet and greet set up*/
+        #meetandgreet {            
+            background-color: #FB7923;
+            color: #1D2E26;
+            border: 2px solid #E4DBDB;
+            border-radius: 8px;
             
-            
+            }
+        #meetandgreet h5 {
+            margin: 5px;
+        }
+        .off {
+            display: none;
         }
         
     /*Logo image*/
@@ -99,6 +112,14 @@
         padding: 10PX;
         gap: 5px;      
         } 
+        
+        .hero img{ 
+            display: block;
+            border-style: none;
+            width: 100%;
+            height: auto;
+                       
+        }
 
     /*basic Div area fix for each div*/
        main div{
@@ -106,6 +127,12 @@
         padding: 10px;
         background-color: #E4DBDB;           
         } 
+
+    /*Hero area*/
+    .main h2 {
+        color: #1d2e26;
+        
+    }
 
     /*Spotlight area grid set up*/
         .spotlight {
