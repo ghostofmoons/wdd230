@@ -27,4 +27,4 @@ computer.onclick = toggleNavMenu;
 const weekday = todayDate.getDay();
 if (weekday != 2) {
     document.getElementById("meetandgreet").classList.toggle("off");
-};
+}
