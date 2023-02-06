@@ -2,6 +2,9 @@
     body {
         background-color: #d4d0c3;
     }
+    li {
+        cursor: pointer;
+    }
 
 /*HEADER
     background set up
