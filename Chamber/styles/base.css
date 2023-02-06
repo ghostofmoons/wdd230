@@ -62,7 +62,7 @@
         #headerNav {
             list-style-type: none; 
             padding-right: 10px;  
-            display: none;         
+            display: none;
         }
 
         #headerNav.open {
@@ -81,7 +81,7 @@
         }
 
         #headerNav a:hover{
-            background-color: rgba(0, 0, 0, .3);
+            background-color: rgba(251, 121, 35, .6);
         
         }
         #hamburger {
