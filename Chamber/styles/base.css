@@ -116,36 +116,89 @@
             
         }
 
-/*Main set up*/
+/*Main set up---------------------------------------------------------------*/
     .main {
         display: grid;
-        grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-template-rows: repeat(5, 1fr);
         padding: 10PX;
         gap: 5px;      
-        } 
-        
+        }         
+
+    /*basic container area fix for each div*/
+        main div{
+            
+            
+            background-color: #E4DBDB;           
+            } 
+
+    /*Hero area-----------------*/
+        .hero {
+            padding: 0;
+            align-items: center;
+        }
+        /*.heroPicture h2 {
+            color: #1d2e26;
+            position: absolute;
+            top: 8px;
+            left: 16px;        
+        }*/
         .hero img{ 
-            display: block;
-            border-style: none;
-            width: 100%;
-            height: auto;
-                       
+            display: block;             
+            max-width: 100%;
+            height: auto;                   
         }
 
-    /*basic Div area fix for each div*/
-       main div{
-        border: 1px solid rgba(0, 0, 0, .3);
-        padding: 10px;
-        background-color: #E4DBDB;           
+    /*Weather area set up----------------*/
+        .weather {
+            background-color: #1d2e26;
+            color: #E4DBDB;
+            padding-top: 10px;
+        }
+        .weather h3 {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding-top: 10px;                        
+        }
+        .weather div {
+            background-color: #1d2e26;
+        }    
+        .currentWeather{
+            justify-content: center;
+            display: flex;
+            padding-bottom: 10px;            
+        }  
+        .currentWeather div {
+            padding-left: 10px;
         } 
-
-    /*Hero area*/
-    .main h2 {
-        color: #1d2e26;
+        .currentWeather img {
+            max-width: 100%;
+            height: auto;
+        }
+        .currentWeather div h2 {
+            font-family: 'Playfair Display', serif;            
+            margin: 0;
+            font-size: 2rem;
+        }
+        .currentWeather div p {
+            margin: 0;
+            font-family: 'Quicksand', sans-serif;           
+        }
+        .wind {
+            text-align: center;
+            padding-top: 10px;
+            align-items: center;
+            border-top: 1px solid rgba(228, 219, 219, .3);           
+        }
+        .wind p {
+            margin: 0;
+            padding: 2px;
+            font-family: 'Quicksand', sans-serif;                        
+        }
         
-    }
 
-    /*Spotlight area grid set up*/
+
+    /*Spotlight area grid set up----------*/
         .spotlight {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -160,13 +213,13 @@
         p.spot3 {
             display: none;
         }
-    /*Join area*/
+    /*Join area------------------------------*/
         .join {
             display: none;
         }
 
 
-/*FOOTER set up*/
+/*FOOTER set up----------------------------------------------------------------*/
     
     footer {
         background-color: #09314F;

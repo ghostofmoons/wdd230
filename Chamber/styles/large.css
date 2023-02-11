@@ -1,6 +1,6 @@
 @media only screen and (min-width: 992px){
     
-    /*HEADER changes*/
+    /*HEADER changes----------------------------------------------------------*/
         #hamburger {
             display: none;
         }
@@ -24,12 +24,12 @@
             padding-left: 0;
         }
 
-    /*MAIN changes*/
+    /*MAIN changes-------------------------------------------------------------*/
         .main {
             display: grid;
-            grid-template-columns: repeat(4, auto);
+            grid-template-columns: repeat(4, 1fr);
             gap: 10px;
-            grid-template-rows: 200px 200px 200px;
+            grid-template-rows: repeat(3, 1fr);
         }
 
         .event, .weather, .join {
