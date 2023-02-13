@@ -125,7 +125,7 @@
         }         
 
     /*basic container area fix for each div*/
-        main div{
+        .event, .news, .spotlight, .join {
             
             
             background-color: #E4DBDB;           
@@ -136,12 +136,13 @@
             padding: 0;
             align-items: center;
         }
-        /*.heroPicture h2 {
-            color: #1d2e26;
-            position: absolute;
-            top: 8px;
-            left: 16px;        
-        }*/
+        .hero h2 {
+            color: #09314F;
+            position: absolute;   
+            padding: 20px;
+            font-family: 'Playfair Display', serif;
+            text-shadow: 2px 2px #E4DBDB;          
+        }
         .hero img{ 
             display: block;             
             max-width: 100%;
@@ -150,9 +151,10 @@
 
     /*Weather area set up----------------*/
         .weather {
-            background-color: #1d2e26;
+            background-color: #1D2E26;
             color: #E4DBDB;
             padding-top: 10px;
+            border-radius: 5px;
         }
         .weather h3 {
             text-align: center;
@@ -161,7 +163,7 @@
             padding-top: 10px;                        
         }
         .weather div {
-            background-color: #1d2e26;
+            background-color: #1D2E26;
         }    
         .currentWeather{
             justify-content: center;
