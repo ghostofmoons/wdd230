@@ -35,7 +35,7 @@
         .event, .weather, .join {
         grid-column: 1/2;
         }
-        /*Grid lay out and display-----*/
+        /*Grid lay out and display changes-----*/
             .event{
             grid-row: 1/2;
             }
@@ -65,7 +65,7 @@
                 display: block;
             }
 
-        /*Hero area inside grid---*/
+        /*Hero area inside grid changes---*/
             .hero h2 {
                 color: #1D2E26;
                 text-shadow: 2px 2px #E4DBDB;
@@ -94,7 +94,7 @@
                 border: 2px solid #E4DBDB;
                 font-weight: bold;
             }
-        /*spotlight area set up Spot 3*/
+        /*spotlight area changes and set up Spot 3*/
             .spot3 {
                 padding: 10px;
                 display: block;

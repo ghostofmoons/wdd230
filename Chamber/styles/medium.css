@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px){
-    /*MAIN area Change---------------------------------------------------------*/
+    /*MAIN area grid change---------------------------------------------------------*/
     .main {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
