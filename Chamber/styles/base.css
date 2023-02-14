@@ -7,26 +7,21 @@
     li {
         cursor: pointer;
     }
-
-    /*Meet and greet set up*/
-    #meetandgreet {            
+    
+    #meetandgreet, #meetandgreet h5 {            
         background-color: #FB7923;
-        color: #E4DBDB;
+        color: #09314F;
         border: 2px solid #09314F;
         border-radius: 8px;
         font-family: 'Playfair Display', serif;
         text-align: center;
         font-size: 1.3rem;
-        text-shadow: 2px 2px #09314F;        
+        margin: 5px;       
         }
-    #meetandgreet h5 {
-        margin: 5px;
-    }
+    
     .off {
         display: none;
     }
-    
-    
     
 /*HEADER------------------------------------------------------------------------
     background set up
@@ -116,37 +111,65 @@
             
         }
 
-/*Main set up---------------------------------------------------------------*/
+/*MAIN set up---------------------------------------------------------------*/
     .main {
         display: grid;
         grid-template-rows: repeat(5, 1fr);
         padding: 10PX;
         gap: 5px;      
-        }         
-
-    /*basic container area fix for each div*/
-        .event, .news, .spotlight, .join {
+        } 
             
-            
-            background-color: #E4DBDB;           
-            } 
 
+    
     /*Hero area-----------------*/
-        .hero {
-            padding: 0;
-            align-items: center;
+        .hero {                  
+            text-align: center;
         }
         .hero h2 {
-            color: #09314F;
+            color: #E4DBDB;
             position: absolute;   
             padding: 20px;
             font-family: 'Playfair Display', serif;
-            text-shadow: 2px 2px #E4DBDB;          
+            text-shadow: 2px 2px #1D2E26;                     
+        }
+        .heroJoin {
+            background-color: #FB7923;
+            border-radius: 5px;
+            font-family: 'Playfair Display', serif;
+            padding: 15px;
+            color: #1D2E26;
+            font-size: large;
+            border: 2px solid #E4DBDB;
+            font-weight: bold;
+            position: absolute; 
+            margin: 15px;   
+                   
         }
         .hero img{ 
             display: block;             
             max-width: 100%;
             height: auto;                   
+        }
+
+    /*Event area set up-------------------*/
+        .event {
+            background-color: #1D2E26;
+            color: #E4DBDB;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .event h2, .event h3 {
+            
+            font-family: 'Playfair Display', serif;
+        }
+        .event h3 {
+            margin-top: 5px;
+        }
+        .event p {
+            font-family: 'Quicksand', sans-serif;
+            padding-top: 5px;
+            
         }
 
     /*Weather area set up----------------*/
@@ -198,7 +221,20 @@
             font-family: 'Quicksand', sans-serif;                        
         }
         
-
+    /*News Release area -------------------*/
+        .news {
+            background-color: #1D2E26;
+            color: #E4DBDB;
+            border-radius: 5px;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+        .news h2{
+            font-family: 'Playfair Display', serif;
+        }
+        .new p {
+            font-family: 'Quicksand', sans-serif;
+        }
 
     /*Spotlight area grid set up----------*/
         .spotlight {
@@ -207,12 +243,34 @@
             gap: 10px;
             
         }
-        .spotlight p {
+        .spot1, .spot2 {
             padding: 10px;
             display: block;
             box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
+            background-color: #1D2E26;
+            border-radius: 5px;
+            color: #E4DBDB; 
+            text-align: center;           
         }
-        p.spot3 {
+        .spot1 h3, .spot2 h3 {
+            font-family: 'Playfair Display', serif; 
+           
+        }
+        .spot1 p, .spot2 p {
+            font-family: 'Quicksand', sans-serif;
+        }
+        .spot1 a {
+            color: #E4DBDB;
+            font-family: 'Quicksand', sans-serif; 
+        }
+        .spot1 a:hover {
+            color: #FB7923;
+        }
+        .spot2 button {
+            padding: 10px;
+        }      
+        
+        .spot3 {
             display: none;
         }
     /*Join area------------------------------*/

@@ -29,6 +29,7 @@ computer.onclick = toggleNavMenu;
 //if the weekday is tuesday this container will appear. 
 
 const weekday = todayDate.getDay();
-if (weekday != 2) {
-    document.getElementById("meetandgreet").classList.toggle("off");
+if (weekday != 2 && weekday != 1) 
+{ console.log("works")
+    document.getElementById("meetandgreet").classList.toggle("off");   
 }
