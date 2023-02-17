@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Image Practice</title>
+    <link rel="stylesheet" href="lazyloadcss.css">
+</head>
+<body>
+    <main>
+        <!--Title to page then 6 images set up for lazy loading -->
+        <h1>Progressive Loading Images</h1>        
+        <div class="images">
+          
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="http://placekitten.com/300/400" 
+                alt="picture1" loading="lazy">
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="https://picsum.photos/300/400?grayscale" 
+                alt="picture2" loading="lazy">
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="https://picsum.photos/300/400" 
+                alt="picture3" loading="lazy">
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="https://placebeard.it/300x400" 
+                alt="picture4" loading="lazy">
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="https://picsum.photos/id/25/300/400" 
+                alt="picture5" loading="lazy">
+            <img src="https://via.placeholder.com/300x400" 
+                data-src="https://placebear.com/300/400" 
+                alt="picture6" loading="lazy">
+
+    </main>
+    <script src="lazyloadjs.js"></script>
+</body>
+</html>
