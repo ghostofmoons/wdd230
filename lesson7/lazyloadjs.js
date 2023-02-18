@@ -10,6 +10,12 @@ const loadImages = (image) => {
   };
 };
 
+//Controls speed of loading
+const options = {
+  threshold: .25,
+  rootMargin: "0px 0px 50px 0px",
+};
+
 //asks if the window can run intersection observer 
 if ("IntersectionObserver" in window) {
     
@@ -21,7 +27,7 @@ if ("IntersectionObserver" in window) {
           observer.unobserve(photo.target);
         }
       });
-    });
+    },options);
     getPictures.forEach((img) => {
       observer.observe(img);
     });

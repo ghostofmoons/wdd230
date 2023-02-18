@@ -10,6 +10,12 @@ const loadImages = (image) => {
   };
 };
 
+//Controls speed of loading
+const options = {
+    threshold: .25,
+    rootMargin: "0px 0px 50px 0px",
+};
+
 //asks if the window can run intersection observer 
 if ("IntersectionObserver" in window) {
     
@@ -21,7 +27,7 @@ if ("IntersectionObserver" in window) {
           observer.unobserve(photo.target);
         }
       });
-    });
+    },options);
     getPictures.forEach((img) => {
       observer.observe(img);
     });
@@ -39,30 +45,4 @@ if ("IntersectionObserver" in window) {
 
 
 
-
-//const options = {
-    //threshold: .25,
-    //rootMargin: "0px 0px 50px 0px",
-//};
-
-//const addImages = (image) => {
-
-//}
-
-////function for intersesction observer
-//let observer = new IntersectionObserver(function(photos,observer){
-    //photos.forEach(photo => {
-      // if (photo.isIntersecting) {
-           // console.log(photo);
-           // photo.target.setAttribute("src", "data-src");
-            //photo.target.toggleAttribute("data-src")
-           // observer.unobserve(photo.target)
-       // };    
-   //});
-//}, //options
-//);
-
-//pictures.forEach(picture => {
-    //observer.observe(picture);
-//});
 
