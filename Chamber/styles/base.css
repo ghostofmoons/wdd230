@@ -110,18 +110,16 @@
             background-color: rgba( 228, 219, 219, .20);
             
         }
-
-/*MAIN set up---------------------------------------------------------------*/
+/*Home Page Main area -----------------------------------------------------*/
+/*MAIN set up*/
     .main {
         display: grid;
         grid-template-rows: repeat(5, 1fr);
         padding: 10PX;
         gap: 5px;      
         } 
-            
-
     
-    /*Hero area-----------------*/
+    /*Hero area*/
         .hero {                  
             text-align: center;
         }
@@ -151,7 +149,7 @@
             height: auto;                   
         }
 
-    /*Event area set up-------------------*/
+    /*Event area set up*/
         .event {
             background-color: #1D2E26;
             color: #E4DBDB;
@@ -172,7 +170,7 @@
             
         }
 
-    /*Weather area set up----------------*/
+    /*Weather area set up*/
         .weather {
             background-color: #1D2E26;
             color: #E4DBDB;
@@ -221,7 +219,7 @@
             font-family: 'Quicksand', sans-serif;                        
         }
         
-    /*News Release area -------------------*/
+    /*News Release area*/
         .news {
             background-color: #1D2E26;
             color: #E4DBDB;
@@ -236,7 +234,7 @@
             font-family: 'Quicksand', sans-serif;
         }
 
-    /*Spotlight area grid set up----------*/
+    /*Spotlight area grid set up*/
         .spotlight {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -273,10 +271,100 @@
         .spot3 {
             display: none;
         }
-    /*Join area------------------------------*/
+    /*Join area*/
         .join {
             display: none;
         }
+
+/*DISCOVER main area set up------------------------------------------------*/
+/*discover main */
+    .discovermain {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        gap: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .demographics, .government, .geography, .rivertonmaps{
+        background-color: #1D2E26;
+        border-radius: 5px;       
+        color: #E4DBDB;
+        padding: 20px;
+    }
+    .geography, .rivertonmaps {
+        display: none;
+    }
+    
+
+    /*Demographics area set up*/
+        .demographics {
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+        }
+        .demographics h1, .demogrphics h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .medianHousing, .medianAge, .familyLivingArrangments, .education {
+            display: none;
+        }
+        .demographics p {
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 5px;
+            padding-left: 25px;   
+        }
+        .demographics h1 {
+            border-bottom: 2px solid #E4DBDB;
+        }
+        .demographics h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+    /*Government area set up*/
+        .government {
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+        }
+        .government h1, .government h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .government p {
+            font-family: 'Quicksand', sans-serif;
+            margin-top: 5px;
+            padding-left: 25px;   
+        }
+        .government h1 {
+            border-bottom: 2px solid #E4DBDB;
+        }
+        .government h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0;
+        }
+    /*Riverton Photo area set up*/
+    .rivertonPhotos{
+        font-family: 'Quicksand', sans-serif;
+        justify-items: center; 
+        align-content: center;
+        
+    }
+    .photo {
+        border: 2px solid #1D2E26;
+    }
+    .photo img{
+        width: 100%;        
+        height:auto;
+        background-color: #E4DBDB;       
+        margin-bottom: 25px;
+        
+        margin: 0;
+      }
+      
+      .photowords {
+        background-color: #E4DBDB;
+        text-align: center;
+        padding: 10px 20px; 
+        color: #1D2E26;      
+      }
+
 
 
 /*FOOTER set up----------------------------------------------------------------*/

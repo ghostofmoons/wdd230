@@ -6,87 +6,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Riverton Chamber of Commerse">
     <meta name="author" content="Crystal Martin">
-    <title>Riverton Chamber of Commerce</title>
+    <title>Riverton Chamber of Commerce discover Riverton Page</title>
+    <link rel="icon" href="images/chambericon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Playfair+Display:ital@0;1&family=Quicksand&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">   
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 </head>
+
 <body>
-<!--Header containing
+    
+<!--HEADER containing________________________________________________________
     Logo of business
     Name of chamber H1 h2
     Social Media youtube, Linkin, linked image
     Site Navigation. home, events, committes, about, memeber
     todays Date -->        
-    <header>
-        <div><img src="images/RivertonLogo.png" alt="Riverton Chamber of Commerce Logo" width="150" height="150">
+    <header class ="head">
+        
+        <div><img class="logo" src="images/image.webp" alt="Riverton Chamber of Commerce Logo" width="110" height="110">
+            
+        
         </div>
-        <div>
+        <div class="heading">
             <h1>
-                Riverton
+                Riverton 
             </h1>
             <h2>
                 Chamber of Commerce
             </h2>
+            
         </div>
         <div>
             <ul class="social">
-                <li><a href="https://www.youtube.com/rivertonutahgov"><img src="images/YouTube_social_white_square_(2017).svg.png" alt="YouTube" width="50" height="50"></a></li>
-                <li><a href="https://www.linkedin.com/company/rivertonutahgov"><img src="images/64px-LinkedIn_logo_initials.png" alt="Link in" width="50" height="50"></a></li>
+                <li><a href="https://www.youtube.com/rivertonutahgov"><img src="images/YouTube_social_white_square_(2017).svg.png" alt="YouTube" width="25" height="25"></a></li>
+                <li><a href="https://www.linkedin.com/company/rivertonutahgov"><img src="images/64px-LinkedIn_logo_initials.png" alt="Link in" width="25" height="25"></a></li>
             </ul>
         </div>
-        <Nav>
-        <button>&#9776;</button>
-            <ul >
+        <nav class="headNav">
+        <button id="hamburger"><span>&#9776;</span><span>x</span></button>
+            <ul id="headerNav" >
                 <li><a href="index.html">Chamber</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="aboutus.html">Discover</a></li>
                 <li><a href="membership.html">Members</a></li>
                 <li><a href="events.html">Events</a></li>            
             </ul>
-        </Nav>
-        <div class="today"></div>
+        </nav>
+        <div class="today">today</div>
         
     </header>
-    <main>
-        <div>Hero with Site Name and call to action</div>
-        <div>Event</div>
-        <div>Weather</div>
-        <div>News Release</div>
-        <div>
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-        </div>
-    </main>
+    <main class="discovermain">
+        <div class="demographics">
+            <h1>Riverton Demographics</h1>
+            <div>
+                <h3>Population</h3>
+                <p>Riverton is the 19th most populated city in Utah with 44,773 people.</p>
+            </div>
+            <div>
+                <h3>Race & Ethnicity</h3>
+                <p>The largest Riverton racial/ethnic groups are White (86.5%) followed by Hispanic 
+                    (7.9%) and Asian (2.1%).</p>
+            </div>
+            <div>
+                <h3>Median Income</h3>
+                <p>In 2021, the median household income of Riverton households was $107,674.</p>
+            </div>
+            <div class="medianHousing">
+                <h3>Median Housing</h3>
+                <p>Median owner-occupied house in 2021 was $397,000.</p>
+            </div>
+            <div class="medianAge">
+                <h3>Median Age</h3>
+                <p>Riverton is pretty young with an average age of 32.6 years.</p>
 
-<!--Footer containing 
+            </div>
+            <div class="familyLivingArrangments">
+                <h3>Family and Living Arrangements</h3>
+                <p>In 2021 the number of households in Riverton was 13,248 with and average of 
+                    3.37 persons per household.</p>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <p>94.1% of Riverton's population has a highschool deploma or higher. Inclucding 
+                    the 39.5% with a bachelor's degree or higher. </p>               
+            </div>
+        </div>        
+
+        <div class="government">
+            <h1>Government</h1>
+            <div>
+                <h3>Six member council</h3>
+                <p>Riverton, Utah is a city of the 3rd class as defined by Utah State Code. 
+                    Riverton City operates using a “six-member council" form of government, which 
+                    means there are six elected officials that make up the governing body: a mayor 
+                    and five councilmembers. [See: Utah Code § 10-3b-301.] 
+                </p>
+            </div>
+            <div>
+                <h3>Mayor</h3>
+                <p>Trent Staggs</p>
+            </div>
+            <div>
+                <h3>Councilmembers</h3>
+                <p>Andy Pierucci, Troy McDougal, Tawnee McCay, Tish Buroker, Claude Wells</p>
+            </div>
+        </div>
+
+        <div class="geography">
+            <h1>Riverton Geography</h1>
+            <div>
+                <h3>Area</h3>
+                <p>Riverton 12.58 sq mi of land in the SouthWest portion of the Salt Lake Valley</p>
+            </div>
+            <div>
+                <h3>Elevation</h3>
+                <p>Riverton is located in a mountian valley that is 4,439 ft</p>
+            </div>
+        </div>
+
+        <div class="rivertonmaps">
+            <h1>Riverton Map</h1>
+            <img src="images/riverton map.png" alt="">
+
+        </div>
+
+        <div class="rivertonPhotos">
+            <div class="photo">
+                <img data-src="images/old-dome-meeting-hall.jpg" 
+                alt="Riverton Old Dome Meeting Hall" width="397" loading="lazy">
+                <div class="photowords">
+                    <p>Replica of the Old Dome Church</p>
+                </div>
+            </div>
+              
+            <div class="photo">
+                <img data-src="images/2013-05-Riverton-Legacy-Home-01.jpg" 
+                alt="Restored old home" width="397" loading="lazy">
+                <div class="photowords">
+                    <p>Many old homes are restored in Riverton</p>
+                </div>
+            </div>
+            <div class="photo">
+                <img data-src="images/riverton motor.png" 
+                alt="Old Riverton Motor" loading="lazy">
+                <div class="photowords">
+                    <p>Riverton has a long history of buisnes</p>
+                </div>
+            </div>
+           
+            <div class="photo">
+                <img data-src="images/Riverton-lifestyle-center2.jpg" 
+                alt="New Development" width="397" loading="lazy">
+                <div class="photowords">
+                    <p>New development boasting 15 minute walk to everythin</p>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="images/jordanRiverParkway.jpg" alt="Jordan River Parkway" width="397">
+                <div class="photowords">
+                    <p>We have open spaces to enjoy</p>
+                </div>
+            </div>
+            
+            
+
+        </div>
+
+
+    </main>
+    <!--FOOTER containing_______________________________________________________________ 
     copywrite, my name, and class.  
     Date and time for page update
     Name, address, contact info, map location-->
     <footer>
-        <div>
-            <h2>Riverton Chamber of Commerce</h2>
-            <address>
-                12830 S Readwood Road<br>
-                Riverton, Utah 84065<br>
-                USA
-            </address>
-            <li><a href="https://goo.gl/maps/oex9v1xJsbAki3967">Map It</a></li>            
-            <p>801-208-3139</p>
-            <li><a href="businesslicensing@rivertonutah.gov">Email Us</a></li>
+        <div class="contact">
+            <img class="bottomlogo" src="images/image.webp" alt="Riverton Chamber of Commerce Logo" width="110" height="110">
+            <div class="nameaddress">
+                <h2>Riverton Chamber of Commerce</h2>
+                <address>
+                    12830 S Readwood Road<br>
+                    Riverton, Utah 84065<br>
+                    USA
+                </address>
+            </div>
+            <div class="direction">
+                <a href="https://goo.gl/maps/oex9v1xJsbAki3967"><span class="material-symbols-outlined">
+                    map
+                    </span></a>            
+                <p>801-208-3139</p>
+                <a href="businesslicensing@rivertonutah.gov">Email Us</a>
+            </div>
 
         </div>
-        <p id="coppywrite">
-            &copy; <span id="currentyear"></span>Crystal Martin | WDD 
-            230 - Winter 2023
-        </p>
-        <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
-        </span>
-        </p>
+        <div class="copywriteArea">
+            <p id="copywrite">
+                &copy; <span id="currentyear"></span>Crystal Martin | WDD 
+                230 - Winter 2023
+            </p>
+            <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
+            </span>
+            </p>
+        </div>
     </footer>
     <script src="scripts/app.js"></script>
+    <script src="scripts/lazyloadjs.js"></script>
 </body>
 </html>

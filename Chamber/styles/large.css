@@ -23,8 +23,8 @@
         .nameaddress {
             padding-left: 0;
         }
-
-    /*MAIN changes-------------------------------------------------------------*/
+/*Homepage Main area---------------------------------------------------------------*/
+    /*MAIN changes*/
         .main {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -116,6 +116,19 @@
             .spot3 a:hover {
                 color: #FB7923;
             }
+
+    /*Dicover page main area--------------------------------------------------------*/
+        /*DISCOVER MAIN area grid change*/
+        .discovermain {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+        .demographics, .government, .geography, .rivertonmaps{
+            grid-column: 1/2;
+        }
+        .rivertonPhotos {
+            grid-column: 2/3;
+        }
 
 
 }
