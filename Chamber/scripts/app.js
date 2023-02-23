@@ -25,11 +25,17 @@ function toggleNavMenu() {
 const computer = document.getElementById("hamburger");
 computer.onclick = toggleNavMenu;
 
+
+
+
+
 //Meet and Greet take notice, It appears the day before the advent takes place
-//if the weekday is tuesday this container will appear. 
+//if the weekday is monday or tuesday this container will appear. 
 
 const weekday = todayDate.getDay();
 if (weekday != 2 && weekday != 1) 
 { console.log("works")
-    document.getElementById("meetandgreet").classList.toggle("off");   
-}
+    document.getElementById(".meetandgreet").classList.toggle("off");   
+};
+
+
