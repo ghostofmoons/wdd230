@@ -4,18 +4,7 @@
 let storeDate = localStorage.getItem("date");
 
 
-//if (storeDate == null) {    
-//    localStorage.setItem("date", todayDate.getDate());
-//    document.querySelector(".visit").textContent = "-This is your first visit-";
-//} else {
-//    let oldDate = localStorage.getItem("date");
-//    console.log(oldDate);
-//    let subDates = todayDate.getDate() - oldDate;
-//    let message = `- Your last visit was ${subDates} days ago -`;
-//    document.querySelector(".visit").innerHTML = message;
-//    console.log(subDates);
-//    localStorage.setItem("date", todayDate.getDate());
-//}
+
 
 //const todayDate = new Date()
 const date =  Date.now();
