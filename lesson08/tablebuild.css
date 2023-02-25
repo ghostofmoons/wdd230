@@ -11,7 +11,11 @@ main {
 }
 
 /*Look of table */
-h1 {
+h2 {
+    margin: 15px;
+}
+.mainTitle {
+    padding: 0;
     color: #E4DBDB;
     background-color: #1D2E26;
     text-align: center;
@@ -19,8 +23,10 @@ h1 {
     margin-bottom: 0;
 }
 
-p {
+caption {
     text-align: center;
+    caption-side: bottom;
+    padding: 5px;
 }
 table {
     text-align: center;
