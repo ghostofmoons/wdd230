@@ -442,9 +442,10 @@
     
 
     /*Table lay out*/
-    .mainTitle h2 {
+    .mainTitle  {
         margin: 15px;
         font-family: 'Playfair Display', serif;
+        font-size: 1.5rem;
     }
     .mainTitle {
         padding: 0;
