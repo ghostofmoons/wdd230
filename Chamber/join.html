@@ -63,7 +63,139 @@
     Form to fill out and submit to join chamber
     table set up to show membership levels and price-->
     <main class="mainJoin">
-        
+        <h1>Membership</h1>
+        <div class="mainJoinGrid">
+            <div>
+                <form class="joinForm" method="get" action="thankyou.html" >
+                    <fieldset>
+                        <legend>Member Info</legend>
+                        <label class="joinInput">First Name *<input type="text" name="fname" required></label>
+                        <label class="joinInput">Last Name *<input type="text" name="lname" required></label>
+                        <label class="joinInput">Email<input type="email" name="email" placeholder="someone@mail.com"></label>
+                        <label class="joinInput">Phone *<input type="tel" name="phone" placeholder="1255554563" required></label>
+                        <label class="joinInput">Business Title<input type="text" name="fname" title="Position"></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Business Info</legend>
+                        <label class="joinInput">Business Name *<input type="text" name="fname" title="Business Name" required></label>
+                        <label class="joinInput">Social Network Address <input type="url" name="url"></label>
+                        <label class="joinInput" for="textarea">Business Discription <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Membership Type</legend>
+                        <label class="joinRadio"><input type="radio" name="membership" value="yes"> Non profit Membership free</label>
+                        <label class="joinRadio"><input type="radio" name="membership" value="yes"> Bronze Membership $3000</label>
+                        <label class="joinRadio"><input type="radio" name="membership" value="yes"> Silver Membership $7000</label>
+                        <label class="joinRadio"><input type="radio" name="membership" value="yes"> Gold Membership $9000</label>
+                    </fieldset>
+                    <input type="hidden" id="joinDateTime" name="dateTime" value="currentDateTime">
+                    <input class="joinSubmit" type="submit" value="Join the Chamber">
+                </form>
+
+            </div>
+    <!--Table area. listing all the memberships and what they offer-->
+            <div>
+                <table class="joinTable">
+                    <tr>
+                        <th colspan="5" class="mainTitle"><h2>Membership Packages</h2></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th class="title">Non-Profit</th>
+                        <th class="title">Bronze</th>
+                        <th class="title">Silver</th>
+                        <th class="title">Gold</th>
+                    </tr>
+                    <tr class="price">
+                        <th></th>
+                        <th class="title">Free</th>
+                        <th class="title">$ 500</th>
+                        <th class="title">$ 1500</th>
+                        <th class="title">$ 3000</th>
+                    </tr>
+                    <tr>
+                        <td>Member Workshops</td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>    
+                    </tr>
+                    
+                    <tr>
+                        <td class="feature2">Member Discounts</td>
+                        <td class="feature2 check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="feature2 check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="feature2 check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <td class="feature2">Chamber Job Board</td>
+                        <td class="feature2 ex">&#x2715;</td>
+                        <td class="feature2 check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="feature2 check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <td>Members News Posts</td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                    </tr>
+                    <tr>
+                        <td>Social Media Advertising</td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>    
+                    </tr>
+                    <tr>
+                        <td>Chamber Site Advertising</td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="ex">&#x2715;</td>
+                        <td class="check"><span class="material-symbols-outlined">
+                            done_outline
+                            </span></td>    
+                    </tr>
+                    <caption>Membership Feature Comparison</caption>
+                </table>
+            </div>
+        </div>
     </main>
 
 <!--FOOTER containing_______________________________________________________________ 

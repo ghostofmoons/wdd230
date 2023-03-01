@@ -371,6 +371,149 @@
     }
 
 
+/*JOIN page Main area set up-----------------------------------------------*/
+    .mainJoin h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #1D2E26;
+    }
+
+    /*Form lay out*/
+    .joinForm fieldset {
+       border: #1D2E26 solid 1px; 
+       border-radius: 5px;
+       margin: 15px;
+       padding: 10px;
+    }
+
+    .joinForm legend {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: #1D2E26;
+        padding: 5px;
+        font-size: larger;
+        
+    }
+    
+    .joinInput {
+        display: block;
+        color:#1D2E26;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+    .joinInput input, .joinInput textarea {
+        display: block;
+        border: #1D2E26 solid 1px;
+        border-radius: 4px;
+        color:#09314F;
+        font-weight: bold;
+        padding: 10px;
+        width: 95%;
+        max-width: 20rem;
+    }
+
+    .joinRadio {
+        display: block;
+        padding: .75rem;
+        color:#09314F;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+    }    
+
+    .joinSubmit {
+        
+        margin: 0 0 1rem 2.5rem ;
+        padding: 1rem;
+        font-family: 'Playfair Display', serif;
+        border: #1D2E26 3px solid;
+        border-radius: 4px;
+        background-color: #FB7923;
+        font-weight: bold;
+        font-size: larger;
+        color: #1D2E26;
+    }
+    .joinSubmit:hover {
+        cursor: pointer;
+        background-color: #1D2E26;
+        color: #E4DBDB;
+    }
+   
+    
+
+    /*Table lay out*/
+    .mainTitle h2 {
+        margin: 15px;
+        font-family: 'Playfair Display', serif;
+    }
+    .mainTitle {
+        padding: 0;
+        color: #E4DBDB;
+        background-color: #1D2E26;
+        text-align: center;
+        padding: 15px;
+        margin-bottom: 0;
+        
+    }
+    
+    caption {
+        text-align: center;
+        caption-side: bottom;
+        padding: 5px;
+    }
+    table {
+        text-align: center;
+        border: 1px solid #1D2E26;
+        
+        width: 100%;
+        border-collapse: collapse;    
+    }
+    .price th {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    /*look of header in table*/
+    th {
+        font-size: larger;
+        color: #E4DBDB;
+        background-color: #1D2E26;
+        padding-top: 20px;
+        
+    }
+    .title {
+        background-color: rgba(29, 46, 38, .7);
+        font-family: 'Playfair Display', serif;
+    }
+    
+    /*look of main table */
+    
+    td {
+        border: 1px solid #1D2E26;
+        height: 30px;
+        font-size: larger;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'Quicksand', sans-serif;
+       
+    }
+    
+    tr:nth-child(odd) { 
+        background-color: rgba(228,219,219,.4);
+    }
+    tr {
+        background-color: #E4DBDB;
+    }    
+    
+    .ex {
+        color: #FB7923;
+    }
+
+/*Thank you page look*/
+    .thankYou h1{
+        color: #1D2E26;
+    }
+
 
 /*FOOTER set up----------------------------------------------------------------*/
     

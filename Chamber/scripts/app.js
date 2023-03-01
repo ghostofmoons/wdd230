@@ -26,9 +26,6 @@ const computer = document.getElementById("hamburger");
 computer.onclick = toggleNavMenu;
 
 
-
-
-
 //Meet and Greet take notice, It appears the day before the advent takes place
 //if the weekday is monday or tuesday this container will appear. 
 
@@ -38,4 +35,6 @@ if (weekday != 2)
     document.getElementById(".meetandgreet").classList.toggle("off");   
 };
 
-
+//get the date for the hidden input when submitted
+const joinDate = document.querySelector("#joinDateTime");
+joinDate.innerHTML = todayDate;
