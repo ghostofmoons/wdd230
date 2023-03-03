@@ -36,5 +36,4 @@ if (weekday != 2 && weekday != 1)
 };
 
 //get the date for the hidden input when submitted
-const joinDate = document.querySelector("#joinDateTime");
-joinDate.innerHTML = todayDate;
+document.getElementById("joinDateTime").value = todayDate.toDateString();

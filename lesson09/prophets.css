@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+div.cards {
+    display: grid; 
+    grid-template-columns: 1fr;     
+    gap: .25rem;
+}
+section {
+    border: .15rem solid #1D2E26;
+    background-color: #D4D0C3;
+    color: #1D2E26;
+    gap: .35rem; 
+    justify-self: center;
+    padding: .25rem;
+}
+h2 {
+    color: #1D2E26;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem
+}
+img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+p {
+    padding-left: .25rem;
+}
