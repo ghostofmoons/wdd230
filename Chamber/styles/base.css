@@ -248,6 +248,7 @@
             padding-top: .5rem;            
             border-radius: 5px;
         }
+
         .currentWeather figcaption {
             font-family: 'Playfair Display', serif;
            
@@ -269,6 +270,23 @@
             padding: 2px;
             font-family: 'Quicksand', sans-serif;                        
         }
+
+        .weatherCredit {
+            font-size: .65rem;            
+            text-align: center;
+            padding-top: 2rem;            
+        }
+
+        .weatherCredit a {
+            color: #E4DBDB;
+            text-decoration: none;
+            font-family: 'Playfair Display', serif;
+        }
+        .weatherCredit a:hover {
+            color: #FB7923;
+            cursor: pointer;
+        }
+        
         
     /*News Release area*/
         .news {
