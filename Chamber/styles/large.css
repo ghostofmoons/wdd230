@@ -66,18 +66,16 @@
             }
 
         /*Hero area inside grid changes---*/
-            .hero h2 {
-                color: #1D2E26;
-                text-shadow: 2px 2px #E4DBDB;
-                
-            }
-
+        .heroJoinBtn {
+           display: none;            
+        }
         /*Join area set up inside grid----*/
             .join {
                 background-color: #1D2E26;
                 border-radius: 5px;
                 text-align: center;
                 padding: 20px;
+                box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
             }
             .join h3 {
                 color: #E4DBDB;
@@ -93,6 +91,9 @@
                 font-size: large;
                 border: 2px solid #E4DBDB;
                 font-weight: bold;
+            }
+            .join button:hover {
+                cursor: pointer;
             }
         /*spotlight area changes and set up Spot 3*/
             .spot3 {

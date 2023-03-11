@@ -22,7 +22,7 @@
     <div id="meetandgreet">
         <h5><span class="material-symbols-outlined">
             handshake
-            </span>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h5>
+        </span>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h5>
     </div>
 <!--HEADER containing________________________________________________________
     Logo of business
@@ -56,7 +56,7 @@
             <ul id="headerNav" >
                 <li><a href="index.html">Chamber</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="join.html">Members</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="events.html">Events</a></li>            
             </ul>
         </nav>
@@ -68,14 +68,17 @@
     <main class="main">
         <div class ="hero">
             <h2>Welcome to Riverton</h2>
-            <button class="heroJoin">Join Us</button>
+            <div class="heroJoinBtn">
+                <button  onclick="window.location.href='join.html'">Join</button>
+            </div>
             <picture class="heroPicture">                
-                <source srcset="images/wdd230_952_medium.jpg" media="(min-width: 768px) and 
+                <source srcset="images/Riverton_City_Park_in_Riverton_Utah_medium.jpg" media="(min-width: 768px) and 
                 (max-width: 993px)">
-                <source srcset="images/wdd230_585_large.jpg" media="(min-width: 992px)">
-                <img src="images/wdd230_721_small.jpg" alt="wdd230 picture">   
-                           
+                <source srcset="images/Riverton_City_Park_in_Riverton_Utah_large.jpg" media="(min-width: 992px)">
+                <img src="images/Riverton_City_Park_in_Riverton_Utah_small.jpg" alt="wdd230 picture">   
+                <!--<a href="https://commons.wikimedia.org/wiki/File:Riverton_City_Park_in_Riverton_Utah.jpg">Hooky6</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons-->          
             </picture>
+            
             
                   
         </div>
@@ -85,16 +88,22 @@
             <p>Friday March 10, 2023 at the State Capitol at 7:00 P.M.</p>
         </div>
         <div class="weather">
-            <h3>Weather</h3>
-            <div class="currentWeather">                
-                <img src="images/sunny_weather_icon.png" alt="Sunny Weather">                              
-                <div>
-                    <h2 id="temp">40°</h2>
-                    <p>Sunny</p>
+            
+            <div class="currentWeather"> 
+                <h3>Weather</h3>               
+                <div id="weatherIcon">
+                    <img src="" alt="weather" id="iconWeather">
                 </div>
-                </div>           
+                <div id="fig">   
+                    <figcaption></figcaption> 
+                </div>                     
+                <div id="degrees">
+                    <h2 id="temp"></h2>                    
+                </div>
+                
+            </div>           
             <div class="wind">
-                <p id="windSpeed">Wind Speed: 4 m/h</p>
+                <p id="windSpeed"></p>
                 <p id="chillWind"></p>
             </div>
         
@@ -132,7 +141,9 @@
         </div>
         <div class ="join">
             <h3>Come see how the Riverton Chamber can benefit your organization</h3>
-            <button>Join the Chamber</button>
+            <form action="join.html">
+                <button>Join the Chamber</button>
+            </form>
         </div>
     </main>
 
@@ -172,5 +183,6 @@
     </footer>
     <script src="scripts/app.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/home.js"></script>
 </body>
 </html>
