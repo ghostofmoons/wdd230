@@ -16,7 +16,7 @@ getDirectoryData();
 //connect with buttons and set up listeners.  Have class turn on and off on click
 let gridBtn = document.querySelector("#directoryGridBtn");
 let listBtn = document.querySelector("#directoryListBtn");
-let directoryButtons = document.querySelector("article");
+let directoryButtons = document.querySelector("#directory");
 
 //grid button on
 gridBtn.addEventListener("click", ()=> {
