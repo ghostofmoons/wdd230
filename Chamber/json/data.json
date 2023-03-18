@@ -2,17 +2,18 @@
     "companies": [
         {
             "name": "SingleCert LLC",
-            "address": "1823 W 13400 S Riverton UT 84065",
+            "address": "1823 W 13400 S",
             "phone": "(801)254-9734",
             "website": "http://www.singlecert.com/wicket/bookmarkable/com.singlecert.home.SignInPage",
             "icon": "images/businesses/NewSingleCertlogowhite.png",
             "memberLevel": "Gold",
-            "businessType": "Software"
+            "businessType": "Software",
+            "pitch": "We make 'the job' easier."
         },
 
         {
             "name": "Payne in the Grass",
-            "address": "11880 S RedWood Rd Riverton UT 84065",
+            "address": "11880 S Redwood Rd",
             "phone": "(801)254-4732",
             "website": "http://www.payneinthegrass.com",
             "icon": "images/businesses/payneintheGrass.png",
@@ -22,7 +23,7 @@
 
         {
             "name": "Graphic 250",
-            "address": "1976 W Hamilton Riverton UT 84065",
+            "address": "1976 W Hamilton",
             "phone": "(801)208-2727",
             "website": "http://www.graphic250.com",
             "icon": "images/businesses/Graphic250.png",
@@ -32,27 +33,29 @@
 
         {
             "name": "Riverton Hotel and Spa",
-            "address": "129476 W Temple Way Riverton UT 84065",
+            "address": "129476 W Temple Way",
             "phone": "(801)434-7890",
             "website": "http://www.rivertonhotel.com",
             "icon": "images/businesses/RivertonHotelandSpa.png",
             "memberLevel": "Gold",
-            "businessType": "Hotel"
+            "businessType": "Hotel",
+            "pitch": "Relaxing at a whole new level."
         },
 
         {
             "name": "Riverton Baseball",
-            "address": "13800 S 3600 W Riverton UT 84065",
+            "address": "13800 S 3600 W",
             "phone": "(801)471-7171",
             "website": "http://www.rbb.com",
             "icon": "images/businesses/RivertonBaseball.png",
             "memberLevel": "Gold",
-            "businessType": "Sports"
+            "businessType": "Sports",
+            "pitch": "All ages and All divisions."
         },
 
         {
             "name": "Train Wreck",
-            "address": "13242 Market Center Riverton UT 84065",
+            "address": "13242 Market Center",
             "phone": "(801)123-1234",
             "website": "http://www.trainWreck.com",
             "icon": "images/businesses/TrainWreck.png",
@@ -62,7 +65,7 @@
 
         {
             "name": "Sweet Cakes",
-            "address": "1985 Chatel Dr Riverton UT 84065",
+            "address": "1985 Chatel Dr",
             "phone": "(801)222-2222",
             "website": "http://www.sweetcakes.com",
             "icon": "images/businesses/SweetCakes.png",
@@ -72,7 +75,7 @@
 
         {
             "name": "Windy Street Bank",
-            "address": "12600 S Water St Riverton UT 84065",
+            "address": "12600 S Water St",
             "phone": "(801)111-1111",
             "website": "http://www.windystreetbank",
             "icon": "images/businesses/WindyStreetBank.png",
@@ -82,7 +85,7 @@
 
         {
             "name": "Rockwell Church",
-            "address": "4800 W  Canal Trail Rd Riverton UT 84065",
+            "address": "4800 W Canal Trail Rd",
             "phone": "(801)555-5555",
             "website": "http://www.rockwellchurch.com",
             "icon": "images/businesses/RockwellChurch.png",
@@ -92,7 +95,7 @@
 
         {
             "name": "P8nt Your Hause",
-            "address": "12121 Kale Ln UT 84065",
+            "address": "12121 Kale Ln",
             "phone": "(801)454-5454",
             "website": "http://www.p8ntyourhause.com",
             "icon": "images/businesses/P8ntyourHause.png",
@@ -102,7 +105,7 @@
 
         {
             "name": "Strings and Things",
-            "address": "14282 S Picket Way Riverton UT 84065",
+            "address": "14282 S Picket Way",
             "phone": "(801)987-6543",
             "website": "http://www.stringsandthings.com",
             "icon": "images/businesses/StringsandThings.png",

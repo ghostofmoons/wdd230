@@ -64,6 +64,9 @@
             .spot3 {
                 display: block;
             }
+            .spot3 img:hover {
+                box-shadow: 2px 3px 2px 3px rgba(212, 208, 195, .6);
+            }
 
         /*Hero area inside grid changes---*/
         .heroJoinBtn {
@@ -79,13 +82,13 @@
             }
             .join h3 {
                 color: #E4DBDB;
-                font-family: 'Playfair Display', serif;
+                font-family: 'Quicksand', sans-serif;
 
             }
             .join button {
                 background-color: #FB7923;
                 border-radius: 5px;
-                font-family: 'Playfair Display', serif;
+                font-family: 'Quicksand', sans-serif;
                 padding: 15px;
                 color: #1D2E26;
                 font-size: large;
@@ -106,7 +109,7 @@
                 text-align: center;
             }
             .spot3 h3 {
-                font-family: 'Playfair Display', serif;
+                font-family: 'Quicksand', sans-serif;
             }
             .spot3 p, .spot3 a{
                 font-family: 'Quicksand', sans-serif; 
@@ -131,7 +134,28 @@
             grid-column: 2/3;
         }
 
-    /*JOIN page Main changes-----------------------------------------------*/
+    /*CONTACT US main area change-----------------------------------------------*/
+    .bofd h3, .appointments {
+        text-align: center;
+        padding: 0;
+    }
+    .bofd h3, .appointments h4, .appointments p, .appointments a {
+        padding: 0;
+    }
+
+    /*DIRECTORY main area change------------------------------*/
+    .directoryGrid {        
+        grid-template-columns: repeat(3, 1fr);       
+         
+    }
+    .directoryList div {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+       
+    }
+    .directoryList address {
+        display: block;
+    }
 
 
 }

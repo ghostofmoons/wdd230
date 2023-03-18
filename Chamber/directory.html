@@ -53,7 +53,8 @@
                 <li><a href="index.html">Chamber</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Members</a></li>
-                <li><a href="events.html">Events</a></li>            
+                <li><a href="directory.html">Business Directory</a></li>
+                <li><a href="contact.html">Contact Us</a></li>            
             </ul>
         </nav>
         <div class="today">today</div>
@@ -61,24 +62,27 @@
     </header>
 <!--MAIN area of page________________________________________________________________
     Directory of the business. Small set up most work in Javascript-->
-    <main class="mainDirectory">
-        
-        <div>        
-            <h1>Business Directory</h1>
-            <button class="directoryBtn">
-                <span class="material-symbols-outlined">
-                grid_on
-                </span>
-            </button>
-            <button class="directoryBtn">
-                <span class="material-symbols-outlined">
-                view_list
-                </span>
-        </button>
-
+    <main class=".mainDirectoryPage">        
+        <div class="mainDirectory">        
+            <div>
+                <h1>Business Directory</h1>
+            </div>
+            <div id="directoryDiv">
+                <button id="directoryGridBtn">
+                    <span class="material-symbols-outlined">
+                    grid_on
+                    </span>
+                </button>
+                <button id="directoryListBtn">
+                    <span class="material-symbols-outlined">
+                    view_list
+                    </span>
+                </button>
+            </div>    
         </div>
-        <div class="directory"></div>
-        <a href="www.apples.com"></a>
+
+        <article id="directory" class="directoryGrid"></article>
+        
 
 
     </main> 

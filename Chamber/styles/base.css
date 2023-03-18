@@ -12,7 +12,7 @@
         color: #09314F;
         border: 2px solid #09314F;
         border-radius: 8px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Quicksand', sans-serif;
         text-align: center;
         font-size: 1.3rem;
         margin: 5px;       
@@ -28,7 +28,7 @@
         header  {
             background-color: #09314F;
             display: grid;
-            grid-template-columns: 110px repeat(3, auto);            
+            grid-template-columns: repeat(4, auto);            
             color: #E4DBDB;            
         }
 
@@ -37,18 +37,19 @@
         .logo {
             max-width: 100%;
             height: auto;
+            justify-items: right;
         }
 
     /*Heading riverton chamber */
-        .heading {
-            font-family: 'Playfair Display', serif;
-           
-        }
+       
         .heading h1 {
             margin-bottom: 0;
+            font-family: 'Quicksand', sans-serif;
+            text-transform: uppercase;
         }
         .heading h2 {
             margin: 0;
+            font-family: 'Quicksand', sans-serif;
         }
     /*social links*/
         .social {
@@ -59,12 +60,12 @@
     /*Site navigation set up*/
         .headNav {
             padding-top: 15px;
-            margin-right: 15px;
+            margin-right: 15px;            
         }
         #headerNav {
             list-style-type: none; 
             padding-right: 10px;  
-            display: none;
+            display: none;           
         }
 
         #headerNav.open {
@@ -83,7 +84,9 @@
         }
 
         #headerNav a:hover{
-            background-color: rgba(251, 121, 35, .6);
+            background-color: rgba(251, 121, 35, .85);
+            color: #09314F;
+            font-weight: bold;
         
         }
         #hamburger {
@@ -99,6 +102,7 @@
                 #hamburger span:nth-child(2) {display: none;}
                 #hamburger.open span:nth-child(1) {display: none;}
                 #hamburger.open span:nth-child(2) {display: block;}
+
     /*todays date set up */
     
         .today {
@@ -107,6 +111,7 @@
             margin: 0.5rem;	
             padding: 0.75rem;
             background-color: rgba( 228, 219, 219, .20);
+            font-family: 'Quicksand', sans-serif;
             
         }
 /*Home Page Main area -----------------------------------------------------*/
@@ -128,13 +133,13 @@
             color: #1D2E26;
             position: absolute;            
             padding: .31rem 1.25rem 1.25rem 4.6rem;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
                                  
         }
         .heroJoin {
             background-color: #FB7923;
             border-radius: 5px;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
             padding: 15px;
             color: #1D2E26;
             font-size: large;
@@ -181,7 +186,7 @@
         }
         .event h2, .event h3 {
             
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
         }
         .event h3 {
             margin-top: 5px;
@@ -215,7 +220,7 @@
 
         .currentWeather h3 {
             text-align: center;
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
             font-size: 1.5rem;
             margin: 0;
             padding-top: 10px;
@@ -250,11 +255,12 @@
         }
 
         .currentWeather figcaption {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
+            text-transform: capitalize;
            
         }
         .currentWeather div h2 {
-            font-family: 'Playfair Display', serif;            
+            font-family: 'Quicksand', sans-serif;          
             margin: 0;
             font-size: 2rem;
         }
@@ -272,7 +278,7 @@
         }
 
         .weatherCredit {
-            font-size: .65rem;            
+            font-size: .8rem;            
             text-align: center;
             padding-top: 2rem;            
         }
@@ -298,9 +304,9 @@
             box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);
         }
         .news h2{
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
         }
-        .new p {
+        .news p {
             font-family: 'Quicksand', sans-serif;
         }
 
@@ -321,22 +327,25 @@
             text-align: center;           
         }
         .spot1 h3, .spot2 h3 {
-            font-family: 'Playfair Display', serif; 
+            font-family: 'Quicksand', sans-serif; 
            
         }
         .spot1 p, .spot2 p {
             font-family: 'Quicksand', sans-serif;
+            padding: 0;
+           
         }
         .spot1 a {
             color: #E4DBDB;
             font-family: 'Quicksand', sans-serif; 
         }
-        .spot1 a:hover {
-            color: #FB7923;
+        .spot1 img:hover{
+            box-shadow: 2px 3px 2px 3px rgba(212, 208, 195, .6);
         }
-        .spot2 button {
-            padding: 10px;
-        }      
+        
+        .spot2 img:hover {
+            box-shadow: 2px 3px 2px 3px rgba(212, 208, 195, .6);
+        }
         
         .spot3 {
             display: none;
@@ -374,7 +383,7 @@
             grid-template-rows: repeat(4, auto);
         }
         .demographics h1, .demogrphics h3 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
         }
         .medianHousing, .medianAge, .familyLivingArrangments, .education {
             display: none;
@@ -397,7 +406,7 @@
             grid-template-rows: repeat(4, auto);
         }
         .government h1, .government h3 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
         }
         .government p {
             font-family: 'Quicksand', sans-serif;
@@ -501,7 +510,7 @@
         
         margin: 0 0 1rem 2.5rem ;
         padding: 1rem;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Quicksand', sans-serif;
         border: #1D2E26 3px solid;
         border-radius: 4px;
         background-color: #FB7923;
@@ -520,7 +529,7 @@
     /*Table lay out*/
     .mainTitle  {
         margin: 15px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Quicksand', sans-serif;
         font-size: 1.5rem;
     }
     .mainTitle {
@@ -559,7 +568,7 @@
     }
     .title {
         background-color: rgba(29, 46, 38, .7);
-        font-family: 'Playfair Display', serif;
+        font-family: 'Quicksand', sans-serif;
     }
     
     /*look of main table */
@@ -585,23 +594,192 @@
     .ex {
         color: #FB7923;
     }
+/*CONTACT US Main area-------------------------------------------------------*/
 
-/*Thank you page look*/
+   
+    .mainContact h1 {
+        font-family: 'Quicksand', sans-serif;
+        color: #1D2E26;
+        text-align: center;
+        margin-bottom: 1.65rem;
+
+    }
+    .mainContact h2, .mainContact h3, .mainContact h4{
+        font-family: 'Quicksand', sans-serif;
+        color: #1D2E26;
+        padding-left: 1.5rem;        
+    }
+
+    .mainContact p, .mainContact a, .mainContact address {
+        font-family: 'Quicksand', sans-serif;
+        color: #1D2E26;
+        padding-left: 2.1rem;
+    }
+    .conactUs h3, .boardofDirectors h3 {
+        margin-bottom: .5rem;
+    }
+    .conactUs p {
+        margin-top: .5rem;
+    }
+    .conactUs a, .boardofDirectors a {
+        text-decoration: none;
+        margin-bottom: .5rem;
+    }
+    .conactUs a:hover, .boardofDirectors a:hover {
+        color: #FB7923;
+        font-weight: bold;
+    }
+    .boardofDirectors h4 {
+        margin-bottom: .5rem;
+        margin-top: 1rem;
+    }
+    .boardofDirectors p {
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+    }
+    .boardofDirectors h2 {
+        text-align: center;
+    }
+    
+/*Directory page set up--------------------------------------------------*/ 
+
+    /*Direcotry grid --------------*/
+    .mainDirectory {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        justify-content: space-around;
+        color: #1D2E26;
+        font-family: 'Quicksand', sans-serif;
+        padding: 2rem;
+    }
+    .directoryDiv {
+        padding: 1.5rem;
+        
+    }
+     #directoryGridBtn, #directoryListBtn {
+        background-color: #1D2E26;
+        color: #E4DBDB;  
+        border-radius: 4px;
+        padding: .25rem;        
+    }
+    #directoryGridBtn:hover, #directoryListBtn:hover {
+        background-color: #FB7923;
+        color: #09314F;        
+        cursor: pointer;
+    }
+    .directoryGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .625rem;
+        margin-bottom: .625rem;
+         
+    }
+    .directoryGrid section {
+        justify-self: center;
+        border: .1875rem solid #1D2E26;
+        padding: 2rem;
+        border-radius: 5px;               
+    }
+    .directoryGrid address, .directoryGrid a {
+        padding: .5rem;
+        color: #1D2E26;
+        font-weight: bold;
+    }
+    .directoryGrid p {
+        color: #1D2E26;
+        padding-left: .5rem;
+        font-weight: bold;
+    }
+    .directoryGrid h4 {
+        text-align: right;
+    }        
+    .directoryGrid h3 {
+        display: none;
+    }
+    .directoryGrid a {
+        text-decoration: none;
+        
+    }
+    .directoryGrid a:hover {
+        color: #FB7923;
+        font-weight: bolder;
+    }
+    
+    /*Direcotry list --------------*/
+    
+    
+    .directoryList {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .625rem;
+        margin-bottom: .625rem;
+         
+    }
+    .directoryList section {        
+        border: .125rem solid #1D2E26;
+        padding: 1rem;
+        border-radius: 5px;        
+    }
+    .directoryList div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       
+    }
+    .directoryList a {
+        padding: 0 .5rem 0 .5rem;
+        color: #1D2E26;
+        font-weight: bold;
+    }
+    .directoryList h3 {
+        margin: 0;
+    }
+    .directoryList p {
+        color: #1D2E26;
+        padding-left: .5rem;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .directoryList h4 {
+        text-align: right;
+        margin: 0;
+    }        
+    .directoryList img, .directoryList address{
+        display: none;
+    }
+    .directoryList a {
+        text-decoration: none;
+        
+    }
+    .directoryList a:hover {
+        color: #FB7923;
+        font-weight: bolder;
+    }
+    
+
+/*Thank you pages look---------------------------------------*/
     .thankYou h1{
         color: #1D2E26;
+        text-align: center;
+               
     }
+    .thankYou {
+        padding: 3rem;
+    }
+    
 
 
 /*FOOTER set up----------------------------------------------------------------*/
     
     footer {
-        background-color: #09314F;
+        background-color: #1D2E26;
         text-align: center;
             
     }
     /*Contact area set up*/
         h2 {
-            font-family:'Playfair Display', serif;
+            font-family: 'Quicksand', sans-serif;
             color: #E4DBDB;
             margin: 0;
         }        
