@@ -1,11 +1,8 @@
 /*page layout basics*/
     body {
-        background-color: #d4d0c3;
-        
+        background-color: #d4d0c3;        
     }
-    li {
-        cursor: pointer;
-    }
+
 /*outside the main page meet and greet ----------------------*/    
     #meetandgreet, #meetandgreet h5 {            
         background-color: #FB7923;
@@ -25,47 +22,59 @@
 /*HEADER------------------------------------------------------------------------
     background set up
     grid setup*/
-        header  {
-            background-color: #09314F;
+        .head  {
+            background-color: #d4d0c3;
             display: grid;
-            grid-template-columns: repeat(4, auto);            
-            color: #E4DBDB;            
-        }
-
-    
-    /*Logo image*/
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: repeat(3, auto);                       
+        }    
+    /*Logo image and Title*/
         .logo {
             max-width: 100%;
             height: auto;
-            justify-items: right;
+            border-radius: 5px;
+            margin-top: .25rem;            
         }
-
-    /*Heading riverton chamber */
-       
-        .heading h1 {
+        .logotitle {
+            display: flex;
+            padding-left: .5rem;
+            grid-row: 1/3;
+        }
+        .headtitle {
+            margin-top: .75rem;
+            padding-left: 1rem;
+        }   
+        .headtitle h1 {
             margin-bottom: 0;
             font-family: 'Quicksand', sans-serif;
             text-transform: uppercase;
+            color: #09314F;
         }
-        .heading h2 {
+        .headtitle h2 {
             margin: 0;
             font-family: 'Quicksand', sans-serif;
+            color: #09314F;
         }
     /*social links*/
         .social {
             display: flex;
             gap: 10px;
             list-style-type: none;
+            justify-content: right;
         }
     /*Site navigation set up*/
         .headNav {
-            padding-top: 15px;
-            margin-right: 15px;            
+            grid-row: 2/3;            
         }
         #headerNav {
             list-style-type: none; 
-            padding-right: 10px;  
-            display: none;           
+            color: #d4d0c3;  
+            display: none;
+            border-radius: 4px;
+            background-color: #09314F;
+            margin-left: .5rem;
+            margin-right: .5rem;
+            padding: 0;           
         }
 
         #headerNav.open {
@@ -79,8 +88,6 @@
             line-height: 1.3;
             display: block;
             padding: .8rem;            
-            box-shadow:  3px 3px 3px 3px rgba(0, 0, 0, .3);          
-            
         }
 
         #headerNav a:hover{
@@ -91,10 +98,12 @@
         }
         #hamburger {
             margin: .2rem;
-            background: transparent;
+            background: #09314F;
             color: rgba( 228, 219, 219, .65);
             border-color:rgba( 228, 219, 219, .65);
-            font-size: 1.5rem;            
+            border-radius: 2px;
+            font-size: 1.5rem;
+            grid-row: 2/3;           
         }
          
             /*navigation button working*/   
@@ -109,11 +118,13 @@
             grid-column: 1/5;
             text-align: center;
             margin: 0.5rem;	
-            padding: 0.75rem;
-            background-color: rgba( 228, 219, 219, .20);
+            padding: 0.5rem;
+            background-color: #09314F;
+            color: #d4d0c3;
             font-family: 'Quicksand', sans-serif;
-            
+            border-radius: 4px;           
         }
+
 /*Home Page Main area -----------------------------------------------------*/
 /*MAIN set up*/
     .main {
@@ -773,7 +784,7 @@
 /*FOOTER set up----------------------------------------------------------------*/
     
     footer {
-        background-color: #1D2E26;
+        background-color: #09314F;
         text-align: center;
             
     }
