@@ -101,6 +101,9 @@
             }
             .join button:hover {
                 cursor: pointer;
+                background-color: #1D2E26;
+                color: #FB7923;
+                font-weight: bolder
             }
         /*spotlight area changes and set up Spot 3*/
             .spot3 {
