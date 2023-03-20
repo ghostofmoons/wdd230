@@ -778,6 +778,14 @@
     .thankYou {
         padding: 3rem;
     }
+
+    /*Credit page ------------------------------*/
+    .mainCredit h2 {
+        color: #1D2E26;
+    }
+    .mainCredit h2, .mainCredit p {
+        padding-left: 30px;
+    }
     
 
 

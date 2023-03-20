@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page for Riverton Chamber of Commerse">
     <meta name="author" content="Crystal Martin">
-    <title>Riverton Chamber of Commerce</title>
+    <title>Riverton Chamber Credits</title>
     <link rel="icon" href="images/chambericon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,11 +19,7 @@
 </head>
 
 <body>
-    <div id="meetandgreet">
-        <h5><span class="material-symbols-outlined">
-            handshake
-        </span>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h5>
-    </div>
+    
 <!--HEADER containing________________________________________________________
     Logo of business
     Name of chamber H1 h2
@@ -64,88 +60,21 @@
         
     </header>
 <!--MAIN area of page________________________________________________________________
-    Hero, events, weather info, news, business spotlights, and joining-->
-    <main class="main">
-        <div class ="hero">
-            <h2>WELCOME TO RIVERTON</h2>
-            <div class="heroJoinBtn">
-                <button  onclick="window.location.href='join.html'">Join</button>
-            </div>
-            <picture class="heroPicture">                
-                <source srcset="images/Riverton_City_Park_in_Riverton_Utah_medium.jpg" media="(min-width: 768px) and 
-                (max-width: 993px)">
-                <source srcset="images/Riverton_City_Park_in_Riverton_Utah_large.jpg" media="(min-width: 992px)">
-                <img src="images/Riverton_City_Park_in_Riverton_Utah_small.jpg" alt="wdd230 picture">   
-                <!--<a href="https://commons.wikimedia.org/wiki/File:Riverton_City_Park_in_Riverton_Utah.jpg">Hooky6</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons-->          
-            </picture>
-            
-            
-                  
-        </div>
-        <div class ="event">
-            <h2>Women On The Hill</h2>
-            <h3>Meet the Business Woman who also run our government</h3>
-            <p>Friday March 10, 2023 at the State Capitol at 7:00 P.M.</p>
-        </div>
-        <div class="weather">
-            
-            <div class="currentWeather"> 
-                <h3>Weather</h3>               
-                <div id="weatherIcon">
-                    <img src="https://via.placeholder.com/10x10" alt="weather" id="iconWeather">
-                    
-                </div>
-                <figcaption id="fig"></figcaption>                 
-                <div id="degrees">
-                    <h2 id="temp">T</h2>                    
-                </div>
-                
-            </div>           
-            <div class="wind">
-                <p id="windSpeed"></p>
-                <p id="chillWind"></p>
-            </div>
-            <div class="weatherCredit">
-                <a href="https://openweathermap.org/">credit openweathermap.org</a>
-            </div>
-        </div>
-        <div class ="news">
-            <h2>Will That Bill Pass?</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                 Duis aute irure dolor in reprehenderit in voluptate velit
-                  esse cillum dolore eu fugiat nulla pariatur. Excepteur 
-                  sint occaecat cupidatat non proident, sunt in culpa qui 
-                  officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
+    -->
+    <main class="mainCredit">
+        <h2>Index</h2>
+        <p>https://www.rivertonutah.gov/facilities/city-hall.php</p>
+        <h2>Discover</h2>
+        <p>dome meeting house:  "File:The Old Dome Meeting Hall in Riverton, Utah.jpg" by Hooky6 is licensed under CC BY-SA 4.0.</p>
+        <p>jordan river parkway: "Jordan River Path" by Cliff Johnson is licensed under CC BY-SA 2.0.</p>
+        <p>https://www.google.com/maps</p>
+        <p>Riverton Motor https://slcoarchives.wordpress.com/2020/02/13/riverton-flashback/</p>
+        <p>https://strattonandbratt.com/</p>
+        <p>https://www.mountainviewvillage.com/</p>
 
-        <div class ="spotlight">
-            <div class="spot1">
-                <!-- <h3>SingleCert</h3>
-                <p>We make "the job" easier for utility, construction and mining companies.</p>
-                <a href="singlecert.com">SingleCert.com</a> -->
-            </div>
-            <div class="spot2">
-                <!-- <h3>Riverton Hotel and Spa</h3>
-                <p>Relaxing at a whole new level.</p>
-                <button>Book now</button> -->
-            </div> 
-            <div class="spot3">
-                <!-- <h3>Riverton Baseball</h3>
-                <p>All ages and All divisions</p>
-                <a href="rivertonbb.com">Visit us at RBB.com</a> -->
-            </div>
-        </div>
-        <div class ="join">
-            <h3>Come see how the Riverton Chamber can benefit your organization</h3>
-            <form action="join.html">
-                <button>Join the Chamber</button>
-            </form>
-        </div>
+
+
+
     </main>
 
 <!--FOOTER containing_______________________________________________________________ 
@@ -175,16 +104,14 @@
         <div class="copywriteArea">
             <p id="copywrite">
                 &copy; <span id="currentyear"></span>Crystal Martin | WDD 
-                230 - Winter 2023 | <a href="credit.html">Credits</a>
+                230 - Winter 2023
             </p>
-            
             <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
             </span>
             </p>
         </div>
     </footer>
     <script src="scripts/app.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/home.js"></script>
+    
 </body>
 </html>
