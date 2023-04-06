@@ -228,7 +228,7 @@ fruitForm.addEventListener("submit", (e) => {
 
 // put form data into thank area    
     let fruitName = document.querySelector("#basketName");
-    let fruitemail = document.querySelector("#basketemail");
+    let fruitemail = document.querySelector("#emailBasket");
     let fruitphone = document.querySelector("#basketphone");
     let fruitOne = document.querySelector("#basketOne");
     let fruitTwo = document.querySelector("#fruitTwo");

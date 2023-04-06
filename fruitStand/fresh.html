@@ -80,31 +80,31 @@
         <div class="freshOrder">
             <div class="drinksBlend" id="blendDrinks">
                 <h2 id="BlendedDrinks">- Blended Fruit Drinks -</h2>
-                <form action= "" id="drinkForm">
+                <form action= "#drinkThanks" id="drinkForm">
                     <fieldset>
                         
                         <legend>Pick Three Fruits To Blend</legend>
                         <div class="drinkDiv">
-                            <label for="firstchoice">First Choice* </label>                        
-                            <select name="firstchoice" id="firstchoice" required></select>
+                            <label for="firstchoice">First Choice </label>                        
+                            <select name="firstchoice" id="firstchoice"></select>
                         </div> 
                         <div class="drinkDiv">
-                            <label for="secondchoice">Second Choice* </label>
-                            <select name="secondchoice" id="secondchoice" required></select>
+                            <label for="secondchoice">Second Choice </label>
+                            <select name="secondchoice" id="secondchoice"></select>
                         </div> 
                         <div class="drinkDiv">                  
-                            <label for="thirdchoice">Third Choice* </label>
-                            <select name="thirdchoice" id="thirdchoice" required></select> 
+                            <label for="thirdchoice">Third Choice </label>
+                            <select name="thirdchoice" id="thirdchoice"></select> 
                         </div> 
-                        <legend>Special Instructions</legend>
+                        <label for="fruitspecialInstruction">Special Instructions</label>
                         <textarea name="fruitspecialInstruction" id="fruitspecialInstruction" cols="30" rows="10"></textarea>
                     </fieldset>
                     <fieldset>
                         <legend>Personal Information</legend>
                         <label class="fruitDrink">First Name * <input type="text" name="fname" id="nameFruit" required></label>
                         <label class="fruitDrink">Last Name * <input type="text" name="lname" required></label>
-                        <label class="fruitDrink">Email * <input type="email" name="email" placeholder="someone@mail.com" id="emailFruit"required></label>
-                        <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="phoneFruit"required></label>
+                        <label class="fruitDrink">Email * <input type="email" name="email" placeholder="someone@mail.com" id="emailFruit" required></label>
+                        <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="phoneFruit" required></label>
                     </fieldset>
                     <input class="drinkSubmit" type="submit" value="Blend Drink">
                 </form>
@@ -128,30 +128,30 @@
                     </div>
                 </div>
             </div>
-
+        
         <!--Basket Order area-->
             <div class="baskets" id="basketFruit">
                 <h2 id="fruitBaskets">- Eight Piece Fruit Baskets -</h2>
-                <form action="" id="basketForm">
+                <form action="#basketThanks" id="basketForm">
                 <fieldset>
                     <legend>Pick four fruits types</legend>
                     <div class="drinkDiv">
-                        <label for="firstfruits">First Two Fruits* </label>
-                        <select name="firstfruits" id="firstfruits" required></select>
+                        <label for="firstfruits">First Two Fruits </label>
+                        <select name="firstfruits" id="firstfruits"></select>
                     </div>    
                     <div class="drinkDiv">    
-                        <label for="secondfruits">Second Two Fruits* </label>
-                        <select name="secondfruits" id="secondfruits" required></select>
+                        <label for="secondfruits">Second Two Fruits </label>
+                        <select name="secondfruits" id="secondfruits"></select>
                     </div>    
                     <div class="drinkDiv">    
-                        <label for="thirdfruits">Third Two Fruits* </label>
-                        <select name="thirdfruits" id="thirdfruits" required></select>
+                        <label for="thirdfruits">Third Two Fruits </label>
+                        <select name="thirdfruits" id="thirdfruits"></select>
                     </div>    
                     <div class="drinkDiv">    
-                        <label for="fourthfruits">Fourth Two Fruit* </label>
-                        <select name="fourthfruits" id="fourthfruits" required></select>
+                        <label for="fourthfruits">Fourth Two Fruit </label>
+                        <select name="fourthfruits" id="fourthfruits"></select>
                     </div>
-                    <legend>Special Instructions</legend>
+                    <label for="fruitspecialInstruction">Special Instructions</label>                    
                     <textarea name="fruitspecialInstruction" id="basketspecialInstruction" cols="30" rows="10"></textarea>                
                 </fieldset>
                 <fieldset>
@@ -159,10 +159,11 @@
                     <label class="fruitDrink">First Name * <input type="text" name="fname" id="basketname" required></label>
                     <label class="fruitDrink">Last Name * <input type="text" name="lname" required></label>
                     <label class="fruitDrink">Email * <input type="email" name="email" placeholder="someone@mail.com" id="basketemail" required></label>
-                    <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="basketemail" required></label>
+                    <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="basketphone" required></label>
                 </fieldset>
                 <input class="basketSubmit" type="submit" value="Make Basket">
-            </form>
+                </form>
+            </div>
             <div id="basketThanks">
                 <h2>Thank You For Your Order</h2>
                 <div class="pickupOrder">
@@ -174,7 +175,7 @@
                 <h3>Your Order info:</h3>
                 <div class="basketOrderInfo">
                     <p id="basketName">1</p>
-                    <p id="basketemail">1</p>
+                    <p id="emailBasket">1</p>
                     <p id="basketphone">1</p>
                     <p id="basketOne">1</p>
                     <p id="basketTwo">1</p>
