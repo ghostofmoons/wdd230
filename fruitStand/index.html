@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for Boutiful Foods">
+    <title>Boutiful Foods Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+
+<!--Picture of fruit, logo and navigation__________________________________-->
+    <header>        
+        <div>
+            <img src="images/largeFruitCrop.webp" alt="Lots of fruit" id="homeMainImage">
+            <picture id="mainLogo">
+                <source srcset="images/bountifulFruits2.webp" width="200" media="(min-width: 768px) and 
+                (max-width: 993px)">
+                <source srcset="images/bountifulFruits2.webp" width="350" media="(min-width: 992px)">            
+                <img src="images/bountifulFruits2.webp" alt="Boutiful Fruit Logo" width="175">
+            </picture>
+            <h2 id="logoWords">Healthy, Fresh Fruits and Drinks</h2>
+            
+        </div>
+        </header>
+       
+        
+    
+<!--HOME MAIN Navigation Welcome to Carlsbad and small discription, picture, maps with discription,__________ 
+        Weather, mock order form-->
+    <main>
+    <!--Navigation here so can be sticky-->        
+        <div class="headerNav">
+            <div class="navLogo">
+                <a href="index.html">
+                    <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="150">
+                </a>
+            </div>
+            <div class="social">                
+                    <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="35"></a>                
+                    <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="35"></a>                
+                    <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="35"></a>               
+            </div>
+            <div class="navBtn">
+                <button class="icon">
+                    <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                </button> 
+            </div>      
+            <div id="navList">               
+                <a href="index.html">Home</a>                    
+                <a href="fresh.html">Fresh</a>                    
+                <a href="aboutus.html">About Us</a>                  
+            </div>              
+        </div>
+    
+    <!--Main content area-->
+        <div class="homeMain">
+            <div class="homeWelcome">
+                <p>Welcome to Carlsbad California. We have 39.1 square miles of semi-arid Mediterranean climate. 
+                    With an average of 263 sunny days a year and a cool fog that comes from the pacific, we at 
+                    Bountiful foods believe this is the perfectly place to grow fruit.   We aren't the only ones. 
+                    The Luiseño people and the Kumeyaay people gathered fruit from the native plants and when 
+                    European settlers came, they brought citrus fruits and avocados.  Come visit our fruit stand 
+                    or one of our trucks and experience the taste of multi-generational produce.
+                </p>        
+            </div>
+            <div class="homeApple">
+                <img src="images/appleOrchard2.webp" alt="Old apple orchard" loading="lazy">
+            </div>            
+            <div class="homeLocation">
+                <p>We are certain you will find our fruit the freshest and we want to make it as easy as possible for 
+                    you to get it.  Visit our fruit stand on Eastern Rd in Carlsbad Monday - Friday from 7:00 a.m. to 7:00 p.m.  
+                    The map will lead you there.  We also have food trucks that roam throughout the county.  
+                    Find our truck locations and times, each day, on social media.  Don't forget that you can 
+                    order ahead, and we'll have everything ready when you arrive.</p>
+                <div>
+                    <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="35"></a>
+                
+                    <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="35"></a>
+                
+                    <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="35"></a>
+                </div> 
+            </div>
+            <div class="homeMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.86080965448!2d-117.287802!3d33.12151955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1679672556772!5m2!1sen!2sus" width="500" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>                
+            
+            <div class="homeWeather">
+                <section>
+                    <div>
+                        <h2>Today</h2>
+                        <h3 id="currentTemp">78of</h3>
+                    </div>
+                    <img src="https://via.placeholder.com/10x10" alt="current weather icon" id="curWeatherIcon">
+                    <p id="currentHighLow">42of</p>    
+                    <p id="curWeatherDiscription">rain</p>                    
+                    <p id="currentHumidity">Humidity</p>                                        
+                </section>
+                <section>
+                    <h2 id="firstDate">T</h2>                   
+                    <img src="https://via.placeholder.com/10x10" alt="current weather icon" id="firstWeatherIcon">                    
+                    <p id="firstHighLowTemp">78</p>
+                    <p id="firstWeatherDiscription">rain</p>                    
+                    <p id="firstHumidity">Humidity</p>                                    
+                </section>
+                <section>
+                    <h2 id="secondDate">T</h2>                   
+                    <img src="https://via.placeholder.com/10x10" alt="current weather icon" id="secondWeatherIcon">                    
+                    <p id="secondHighLowTemp">78</p>
+                    <p id="secondWeatherDiscription">rain</p>                    
+                    <p id="secondHumidity">Humidity</p>  
+                </section>
+                <section>
+                    <h2 id="thirdDate">T</h2>                   
+                    <img src="https://via.placeholder.com/10x10" alt="current weather icon" id="thirdWeatherIcon">                    
+                    <p id="thirdHighLowTemp">78</p>
+                    <p id="thirdWeatherDiscription">rain</p>                    
+                    <p id="thirdHumidity">Humidity</p>  
+                </section>
+
+            </div>
+            <div class="homeFruitDrink">
+                <a href="fresh.html">
+                    <h2>- Make a fruit drink -</h2>
+                    <div class="homeDrinkInput">
+                        <div class="homeDrinkImage">
+                            <img src="images/fruitDrink.webp" alt="fruit drink" width="200">
+                        </div>
+                        <form action="fresh.html">                           
+                            <label class="homeInput"><input type="radio" name="fruit_type" value="yes"> Mango</label>                            
+                            <label class="homeInput"><input type="radio" name="fruit_type" value="yes"> Avocado</label>                            
+                            <label class="homeInput"><input type="radio" name="fruit_type" value="yes"> Orange</label>
+                            <label class="homeInput"><input type="radio" name="fruit_type" value="yes"> Apple</label>
+                            <label class="homeInput"><input type="radio" name="fruit_type" value="yes"> Banana</label>
+                            <input class="homeInputSubmit" type="submit" value="Make Drink">
+                        </form> 
+                    </div>       
+                </a>
+            </div>
+        </div>
+    </main>
+<!--Logo, phone, times, address, link to stand, copy write and school stuff_____________________-->
+    <footer>
+        <div class="mainFooter">
+            <picture id="footerLogo">
+                <source srcset="images/boutifulFruitLogo.webp" width="200" media="(min-width: 768px) and 
+                (max-width: 993px)">
+                <source srcset="images/boutifulFruitLogo.webp" width="350" media="(min-width: 992px)">            
+                <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="175">
+            </picture>            
+            <div class="footerInfo">
+                <p>Phone: 123-123-1234</p>
+                <p>Monday - Saturday 7:00 a.m. to 7:00 p.m.</p>
+                <div class="footerAddress">
+                    <address>
+                        149 Eastern Rd Carlsbad, California
+                    </address>
+                    <a href="https://goo.gl/maps/vNMJCaR6DCeq9W4W9"><span class="material-symbols-outlined">
+                        <strong>map</strong>
+                        </span></a>
+                </div>        
+            </div>        
+            <div class="footerSocial">
+                <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="30"></a>
+            
+                <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="30"></a>
+            
+                <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="30"></a>
+            </div>
+        </div>
+        <div class="copywriteArea">
+            <div>
+                <p id="copywrite">
+                    &copy; <span id="currentyear"></span> Crystal Martin | WDD 
+                    230 - Winter 2023 | <a href="credit.html">Credits</a>
+                </p>
+            </div>
+            <div>
+                <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
+                </span>
+                </p>
+            </div>    
+        </div>
+    </footer>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

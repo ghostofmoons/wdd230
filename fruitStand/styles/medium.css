@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px){
+    
+    #logoWords {        
+    top: 6rem;
+    }
+
+    /*Home Main area changes-------------------*/
+    .homeMain {         
+        grid-template-columns: 1fr 1fr;      
+        grid-template-rows: repeat(5, 1fr);
+        gap: .5rem;        
+    } 
+    .homeFruitDrink {        
+        grid-column: 2/3;
+    }    
+    .homeWelcome{
+        grid-row: 1/2;       
+    }
+    .homeApple {
+        grid-row: 2/3;
+        padding-left: 1rem;       
+    }
+    .homeLocation {
+        grid-row: 3/4;             
+    }
+    .homeLocation p, .homeWelcome p {
+        margin: 0;
+    }
+    .homeMap {        
+        grid-row: 4/5; 
+        max-height: 35px;       
+    }
+    .homeWeather {
+        grid-row: 5/6; 
+        padding-top: .4rem;
+    }
+
+/*About Us area change---------------*/
+    .aboutUsMain {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .8rem;
+        margin-top: .5rem;
+    } 
+    .aboutUsTrucks {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .aboutUsWelcome {
+        padding-top: 3rem;
+    }
+    .aboutUsTrucks {
+        padding-top: 2rem;
+    }
+    
+    /*Fresh area change-----------*/
+    .fruitdescription {        
+        grid-template-columns: repeat(4, 1fr);                   
+    }
+
+
+    /*Footer Changes-----------------------------*/    
+    .mainFooter {               
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .mainFooter img {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }      
+    .footerInfo {
+        padding-top: 2rem;
+    }
+    
+    
+}

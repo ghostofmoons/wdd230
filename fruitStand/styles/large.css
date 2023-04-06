@@ -1,0 +1,115 @@
+@media only screen and (min-width: 992px){
+    
+    #logoWords {       
+       top: 10.5rem;
+    }
+    /*Navigation changes------*/
+    
+    .navBtn {
+        display: none;
+    }
+    #navList {
+        display: block;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 1rem;
+        padding-bottom: .625rem;
+    }
+    .social {
+        grid-column: 3/4;
+        justify-self: right;
+        padding-right: 1rem;
+    }
+    
+    /*Home Main area changes-----------*/
+    .homeMain {        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem 0 1rem 0;
+    } 
+      
+    .homeWelcome {
+        margin-top: 4rem;
+        
+    }
+    .homeApple img {       
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    
+    }
+    .homeApple {
+        grid-column: 2/3;
+        grid-row: 1/2
+    }
+    .homeLocation {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .homeLocation div {
+        padding-left: 2rem;
+    }
+    .homeMap {
+        grid-column: 1/2;
+        grid-row: 2/3;  
+        margin-bottom: 0;      
+    }
+    
+    .homeWeather {
+        grid-row: 3/4;
+        grid-column: 1/3;
+        
+    }
+    .homeFruitDrink {
+        border: 5px solid #B4152B;
+        border-radius: 5px;
+                
+        top: 8rem;
+        grid-column: 3/4;   
+    }       
+    .homeDrinkImage  {
+        display: block;        
+        padding-left: 1rem;
+        border-radius: 5px;
+    }
+    .homeDrinkInput {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .homeDrinkInput form {
+        padding-left: 2rem;
+    }
+    .homeInput {
+        font-weight: bold;
+        padding-left: .5rem;
+        display: block;
+        padding: .625rem;
+    }
+    .homeInputSubmit {
+        background-color: #F6F7F2;
+        padding: .625rem;
+        color: #B4152B;        
+        margin-left: .625rem;
+        margin-right: .625rem;
+              
+    }
+    /*fresh area change*/
+    .fruitdescription {        
+        grid-template-columns: repeat(6, 1fr);                   
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+

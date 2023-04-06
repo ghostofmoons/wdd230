@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for Boutiful Foods">
+    <title>Boutiful Foods Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+
+<!--Picture of fruit, logo and navigation__________________________________-->
+    <header>        
+        <div>
+            <img src="images/largeFruitCrop.webp" alt="Lots of fruit" id="homeMainImage">
+            <picture id="mainLogo">
+                <source srcset="images/bountifulFruits2.webp" width="200" media="(min-width: 768px) and 
+                (max-width: 993px)">
+                <source srcset="images/bountifulFruits2.webp" width="350" media="(min-width: 992px)">            
+                <img src="images/bountifulFruits2.webp" alt="Boutiful Fruit Logo" width="175">
+            </picture>
+            <h2 id="logoWords">Healthy, Fresh Fruits and Drinks</h2>
+            
+        </div>
+        </header>
+       
+        
+    
+<!--HOME MAIN Navigation Welcome to Carlsbad and small discription, picture, maps with discription,__________ 
+        Weather, mock order form-->
+    <main>
+    <!--Navigation here so can be sticky-->        
+        <div class="headerNav">
+            <div class="navLogo">
+                <a href="index.html">
+                    <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="150">
+                </a>
+            </div>
+            <div class="social">                
+                    <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="35"></a>                
+                    <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="35"></a>                
+                    <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="35"></a>               
+            </div>
+            <div class="navBtn">
+                <button class="icon">
+                    <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                </button> 
+            </div>      
+            <div id="navList">               
+                <a href="index.html">Home</a>                    
+                <a href="fresh.html">Fresh</a>                    
+                <a href="aboutus.html">About Us</a>                  
+            </div>              
+        </div>
+    <!--Fresh Main area where order drinks and baskets-->
+        <div class="freshHeading">
+            <h1>- Order From Our Fruit Stand -</h1>
+            <div class="freshNav">
+                <a href="#BlendedDrinks">Blend a Drink</a>
+                <a href="#FruitBaskets">Build a Fruit Basket</a>
+            </div>
+        </div>
+        <div class="meetFruit">
+            <h2>Meet Our Fruit</h2>
+            <div class="fruitdescription"></div>
+        </div>
+
+    <!--Order form  area______________________________________________________________-->
+    <!--Basket Order area-->
+        <div class="freshOrder">
+            <div class="drinksBlend">
+                <h2 id="BlendedDrinks">- Blended Fruit Drinks -</h2>
+                <form action= "" id="drinkForm">
+                    <fieldset>
+                        
+                        <legend>Pick Three Fruits To Blend</legend>
+                        <div class="drinkDiv">
+                            <label for="firstchoice">First Choice* </label>                        
+                            <select name="firstchoice" id="firstchoice" required></select>
+                        </div> 
+                        <div class="drinkDiv">
+                            <label for="secondchoice">Second Choice* </label>
+                            <select name="secondchoice" id="secondchoice" required></select>
+                        </div> 
+                        <div class="drinkDiv">                  
+                            <label for="thirdchoice">Third Choice* </label>
+                            <select name="thirdchoice" id="thirdchoice" required></select> 
+                        </div> 
+                        <legend>Special Instructions</legend>
+                        <textarea name="fruitspecialInstruction" id="fruitspecialInstruction" cols="30" rows="10"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="fruitDrink">First Name * <input type="text" name="fname" id="nameFruit" required></label>
+                        <label class="fruitDrink">Last Name * <input type="text" name="lname" required></label>
+                        <label class="fruitDrink">Email * <input type="email" name="email" placeholder="someone@mail.com" id="emailFruit"required></label>
+                        <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="phoneFruit"required></label>
+                    </fieldset>
+                    <input class="drinkSubmit" type="submit" value="Blend Drink">
+                </form>
+                <div id="drinkThanks">
+                    <h2>Thank You For Your Order</h2>
+                    <div class="pickupOrder">
+                        <p>Pick your order up at our Fruit stand</p>
+                        <a href="https://goo.gl/maps/vNMJCaR6DCeq9W4W9"><span class="material-symbols-outlined">
+                            <strong>map</strong>
+                            </span></a>
+                    </div>
+                    <h3>Your Order info:</h3>
+                    <div class="drinkOrderInfo">
+                        <p id="fruitName">1</p>
+                        <p id="fruitemail">1</p>
+                        <p id="fruitphone">1</p>
+                        <p id="fruitOne">1</p>
+                        <p id="fruitTwo">1</p>
+                        <p id="fruitThree">1</p>
+                        <p id="fruitInstructions">1</p>
+                    </div>
+                </div>
+            </div>
+
+        <!--Basket Order area-->
+            <div class="baskets">
+                <h2 id="fruitBaskets">- Eight Piece Fruit Baskets -</h2>
+                <form action="" id="basketForm">
+                <fieldset>
+                    <legend>Pick four fruits types</legend>
+                    <div class="drinkDiv">
+                        <label for="firstfruits">First Two Fruits* </label>
+                        <select name="firstfruits" id="firstfruits" required></select>
+                    </div>    
+                    <div class="drinkDiv">    
+                        <label for="secondfruits">Second Two Fruits* </label>
+                        <select name="secondfruits" id="secondfruits" required></select>
+                    </div>    
+                    <div class="drinkDiv">    
+                        <label for="thirdfruits">Third Two Fruits* </label>
+                        <select name="thirdfruits" id="thirdfruits" required></select>
+                    </div>    
+                    <div class="drinkDiv">    
+                        <label for="fourthfruits">Fourth Two Fruit* </label>
+                        <select name="fourthfruits" id="fourthfruits" required></select>
+                    </div>
+                    <legend>Special Instructions</legend>
+                    <textarea name="fruitspecialInstruction" id="basketspecialInstruction" cols="30" rows="10"></textarea>                
+                </fieldset>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="fruitDrink">First Name * <input type="text" name="fname" id="basketname" required></label>
+                    <label class="fruitDrink">Last Name * <input type="text" name="lname" required></label>
+                    <label class="fruitDrink">Email * <input type="email" name="email" placeholder="someone@mail.com" id="basketemail" required></label>
+                    <label class="fruitDrink">Phone * <input type="tel" name="phone" placeholder="1255554563" id="basketemail" required></label>
+                </fieldset>
+                <input class="basketSubmit" type="submit" value="Make Basket">
+            </form>
+            <div id="basketThanks">
+                <h2>Thank You For Your Order</h2>
+                <div class="pickupOrder">
+                    <p>Pick your order up at our Fruit stand</p>
+                    <a href="https://goo.gl/maps/vNMJCaR6DCeq9W4W9"><span class="material-symbols-outlined">
+                        <strong>map</strong>
+                        </span></a>
+                </div>
+                <h3>Your Order info:</h3>
+                <div class="basketOrderInfo">
+                    <p id="basketName">1</p>
+                    <p id="basketemail">1</p>
+                    <p id="basketphone">1</p>
+                    <p id="basketOne">1</p>
+                    <p id="basketTwo">1</p>
+                    <p id="basketThree">1</p>
+                    <p id="basketFour">1</p>
+                    <p id="basketInstructions">1</p>
+                </div>
+            </div>
+        </div>
+        
+
+       
+    </main>
+<!--Logo, phone, times, address, link to stand, copy write and school stuff_____________________-->
+    <footer>
+        <div class="mainFooter">
+            <picture id="footerLogo">
+                <source srcset="images/boutifulFruitLogo.webp" width="200" media="(min-width: 768px) and 
+                (max-width: 993px)">
+                <source srcset="images/boutifulFruitLogo.webp" width="350" media="(min-width: 992px)">            
+                <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="175">
+            </picture> 
+            <div class="footerInfo">
+                <p>Phone: 123-123-1234</p>
+                <p>Monday - Saturday 7:00 a.m. to 7:00 p.m.</p>
+                <div class="footerAddress">
+                    <address>
+                        149 Eastern Rd Carlsbad, California
+                    </address>
+                    <a href="https://goo.gl/maps/vNMJCaR6DCeq9W4W9"><span class="material-symbols-outlined">
+                        <strong>map</strong>
+                        </span></a>
+                </div>        
+            </div>        
+            <div class="footerSocial">
+                <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="30"></a>
+            
+                <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="30"></a>
+            
+                <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="30"></a>
+            </div>
+        </div>
+        <div class="copywriteArea">
+            <div>
+                <p id="copywrite">
+                    &copy; <span id="currentyear"></span>Crystal Martin | WDD 
+                    230 - Winter 2023 | <a href="credit.html">Credits</a>
+                </p>
+            </div>
+            <div>
+                <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
+                </span>
+                </p>
+            </div>    
+        </div>
+    </footer>
+    <script src="scripts/base.js"></script>
+    <script src="scripts/fruit.js"></script>
+</body>
+</html>

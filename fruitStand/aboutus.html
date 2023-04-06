@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home Page for Boutiful Foods">
+    <title>Boutiful Foods Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+
+<!--Picture of fruit, logo and navigation__________________________________-->
+    <header>        
+        <div>
+            <img src="images/largeFruitCrop.webp" alt="Lots of fruit" id="homeMainImage">
+            <picture id="mainLogo">
+                <source srcset="images/bountifulFruits2.webp" width="200" media="(min-width: 768px) and 
+                (max-width: 993px)">
+                <source srcset="images/bountifulFruits2.webp" width="350" media="(min-width: 992px)">            
+                <img src="images/bountifulFruits2.webp" alt="Boutiful Fruit Logo" width="175">
+            </picture>
+            <h2 id="logoWords">Healthy, Fresh Fruits and Drinks</h2>
+            
+        </div>
+        </header>
+       
+        
+    
+<!--HOME MAIN Navigation Welcome to Carlsbad and small discription, picture, maps with discription,__________ 
+        Weather, mock order form-->
+    <main>
+    <!--Navigation here so can be sticky-->        
+        <div class="headerNav">
+            <div class="navLogo">
+                <a href="index.html">
+                    <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="150">
+                </a>
+            </div>
+            <div class="social">                
+                    <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="35"></a>                
+                    <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="35"></a>                
+                    <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="35"></a>               
+            </div>
+            <div class="navBtn">
+                <button class="icon">
+                    <span class="material-symbols-outlined">
+                        menu
+                        </span>
+                </button> 
+            </div>      
+            <div id="navList">               
+                <a href="index.html">Home</a>                    
+                <a href="fresh.html">Fresh</a>                    
+                <a href="aboutus.html">About Us</a>                  
+            </div>              
+        </div>
+    
+    <!--Main content area-->
+    <div class="aboutUsMain">
+        <div class="aboutUsWelcome">
+            <p>We grew up in this area.  Our homes was in the middle of our many orchards.
+                Picking the fruit off the tree at perfect ripeness was a luxury we didn't 
+                relize until we were adults.  We started our stand so others could experience
+                fruit the way we did when we were young.  We talked with all our neighbors 
+                set up our first fruit stand.  
+            </p>        
+        </div>
+        <div class="aboutUsStand">
+            <img src="images/otherFruitStand.webp" alt="Fruit Stand" width="450" loading="lazy">
+        </div>            
+        <div class="aboutUsTrucks">
+            <p>We grew quickly and many people kept wishing they didn't have to drive as far
+                to get our fruit.  This is when we decied to become mobile.  We started with
+                food truck and now we have two.  You can find where our trucks are on our 
+                social media sites.
+            </p>
+            <div>
+                <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="35"></a>
+            
+                <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="35"></a>
+            
+                <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="35"></a>
+            </div> 
+        </div>
+        <div class="aboutUsFoodTruks">
+           <img src="images/fruitTruck.webp" alt="fruit truck" width="450" loading="lazy">
+        </div>                
+               
+        
+    </div>
+</main>
+        
+    </main>
+<!--Logo, phone, times, address, link to stand, copy write and school stuff_____________________-->
+    <footer>
+        <div class="mainFooter">
+            <img src="images/boutifulFruitLogo.webp" alt="Boutiful Fruit Logo" width="350">
+            <div class="footerInfo">
+                <p>Phone: 123-123-1234</p>
+                <p>Monday - Saturday 7:00 a.m. to 7:00 p.m.</p>
+                <div class="footerAddress">
+                    <address>
+                        149 Eastern Rd Carlsbad, California
+                    </address>
+                    <a href="https://goo.gl/maps/vNMJCaR6DCeq9W4W9"><span class="material-symbols-outlined">
+                        <strong>map</strong>
+                        </span></a>
+                </div>        
+            </div>        
+            <div class="footerSocial">
+                <a href="https://www.facebook.com/"><img src="images/f_logo_RGB-Blue_58.png" alt="facebook logo" width="30"></a>
+            
+                <a href="https://twitter.com/?lang=en"><img src="images/Twitter_social_icons_circle_blue.png" alt="Twitter logo" width="30"></a>
+            
+                <a href="https://www.instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="instagram logo" width="30"></a>
+            </div>
+        </div>
+        <div class="copywriteArea">
+            <div>
+                <p id="copywrite">
+                    &copy; <span id="currentyear"></span>Crystal Martin | WDD 
+                    230 - Winter 2023 | <a href="credit.html">Credits</a>
+                </p>
+            </div>
+            <div>
+                <p id="dateTimeUpdate">Last Updated: <span id="lastchange"> 
+                </span>
+                </p>
+            </div>    
+        </div>
+    </footer>
+    <script src="scripts/base.js"></script>
+</body>
+</html>
